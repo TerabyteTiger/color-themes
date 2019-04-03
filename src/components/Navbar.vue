@@ -18,7 +18,7 @@ div {
   background-color: var(--primary);
   text-align: left;
   color: var(--secondary);
-  padding: 7px 25px;
+  padding: 1px 25px;
 }
 
 a {
