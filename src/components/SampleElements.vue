@@ -121,6 +121,7 @@
 </template>
 
 <script>
+var luminance = require("relative-luminance").default;
 export default {
   name: "SampleElements"
 };
