@@ -1,9 +1,13 @@
 <template>
-  <div>
-    <a href="#">
-      <h1>Tyler's Theme Sampler</h1>
-    </a>
-  </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="#">
+          <h1>Tyler's Theme Sampler</h1>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -13,8 +17,10 @@ export default {
 </script>
 
 <style scoped>
-div {
+nav {
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
   background-color: var(--primary);
   text-align: left;
   color: var(--secondary);
@@ -24,5 +30,19 @@ div {
 a {
   color: inherit;
   text-decoration: none;
+}
+h1 {
+  width: auto;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
 }
 </style>

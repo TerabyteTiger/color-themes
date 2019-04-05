@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="main">
     <Navbar/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SelectedTheme/>
     <SampleElements/>
   </div>
 </template>
@@ -9,12 +9,14 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import SampleElements from "./components/SampleElements.vue";
+import SelectedTheme from "./components/SelectedTheme.vue";
 
 export default {
   name: "app",
   components: {
     Navbar,
-    SampleElements
+    SampleElements,
+    SelectedTheme
   }
 };
 </script>

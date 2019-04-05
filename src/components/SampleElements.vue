@@ -96,7 +96,7 @@
     </div>
 
     <div class="card center">
-      <h1>Forms</h1>
+      <h1>Forms (Inputs)</h1>
       <form>
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -159,10 +159,9 @@ export default {
   background-color: var(--secondary);
   border: 3px solid var(--accent);
   width: 50%;
-  margin: auto;
+  margin: 10px auto auto;
   border-radius: 17px;
   padding: 10px;
-  margin-top: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 
