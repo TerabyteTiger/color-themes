@@ -19,7 +19,7 @@ export default {
 };
 </script>
 
-<style>
+<style >
 body {
   margin: 0;
   /*Reset Margin of page to 0*/
@@ -29,6 +29,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  margin-bottom: 150px;
 }
 
 .main {

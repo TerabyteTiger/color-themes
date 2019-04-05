@@ -2,13 +2,18 @@
   <div class="samples">
     <div class="card">
       <h1>A11y</h1>
-      <div class="ally-black">
+      <div class="primary-ally">
         <p class="small black">This is what dark text on your primary color looks like</p>
         <p class="large black">This is what large dark text on your primary color looks like</p>
-      </div>
-      <div class="ally-white">
         <p class="small white">This is what white text on your primary color looks like</p>
         <p class="large white">This is what large white text on your primary color looks like</p>
+      </div>
+      <hr>
+      <div class="secondary-ally">
+        <p class="small black">This is what dark text on your secondary color looks like</p>
+        <p class="large black">This is what large dark text on your secondary color looks like</p>
+        <p class="small white">This is what white text on your secondary color looks like</p>
+        <p class="large white">This is what large white text on your secondary color looks like</p>
       </div>
     </div>
 
@@ -108,7 +113,7 @@
         <br>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+        <br>
         <input type="submit" value="Submit">
       </form>
     </div>
@@ -164,6 +169,15 @@ export default {
   > h1:nth-child(1) {
     text-align: center;
   }
+}
+
+/* A11y Section */
+.primary-ally {
+  background-color: var(--primary);
+}
+
+.secondary-ally {
+  background-color: var(--secondary);
 }
 
 /* Table Styling */
