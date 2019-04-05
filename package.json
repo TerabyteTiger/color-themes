@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "relative-luminance": "^2.0.1",
     "vue": "^2.6.6"
   },
   "devDependencies": {

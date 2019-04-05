@@ -1,6 +1,18 @@
 <template>
   <div class="samples">
     <div class="card">
+      <h1>A11y</h1>
+      <div class="ally-black">
+        <p class="small black">This is what dark text on your primary color looks like</p>
+        <p class="large black">This is what large dark text on your primary color looks like</p>
+      </div>
+      <div class="ally-white">
+        <p class="small white">This is what white text on your primary color looks like</p>
+        <p class="large white">This is what large white text on your primary color looks like</p>
+      </div>
+    </div>
+
+    <div class="card">
       <h1>Headers</h1>
       <h1 class="left">This is an h1 tag</h1>
       <h2>This is an h2 tag</h2>
@@ -117,6 +129,23 @@ export default {
 
 .left {
   text-align: left;
+}
+
+.large {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 12pt;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: #333333;
 }
 
 /* Material Card setup */
