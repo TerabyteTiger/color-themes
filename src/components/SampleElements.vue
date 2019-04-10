@@ -1,10 +1,10 @@
 <template>
   <div class="samples">
-    <div class="card">
+    <div class="card center">
       <h1>A11y</h1>
       <p
         class="allyCheck"
-      >This theme has a contrast ratio of {{ contrast }} which makes it {{ compliance }}</p>
+      >This theme has a contrast ratio of {{ contrast }} which makes it {{ compliance }}.</p>
       <p>
         Learn more about WCAG text contrast compliance
         <a
@@ -122,10 +122,10 @@ export default {
   name: "SampleElements",
   data: function() {
     return {
-      bgLumi: 0,
+      bgLumi: 1,
       colorLumi: 0.021232136932028953,
-      contrast: 1.42,
-      compliance: "not compliant with WCAG"
+      contrast: 14.74,
+      compliance: "AAA compliant"
     };
   },
   methods: {
@@ -159,6 +159,12 @@ export default {
     }
   }
 };
+console.log("text: ", luminance([53, 28, 77]));
+console.log("bg: ", luminance([255, 255, 255]));
+console.log(
+  "contrast: ",
+  (luminance([255, 255, 255]) + 0.05) / (luminance([53, 28, 77]) + 0.05)
+);
 /*
 const element = document.querySelector(".allyCheck");
 const colorArray = getComputedStyle(element)
@@ -219,15 +225,6 @@ console.log(lumi1, lumi2, contrast);
   > h1:nth-child(1) {
     text-align: center;
   }
-}
-
-/* A11y Section */
-.primary-ally {
-  background-color: var(--primary);
-}
-
-.secondary-ally {
-  background-color: var(--secondary);
 }
 
 /* Table Styling */
