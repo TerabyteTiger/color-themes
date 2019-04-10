@@ -2,19 +2,15 @@
   <div class="samples">
     <div class="card">
       <h1>A11y</h1>
-      <div class="primary-ally">
-        <p class="small black">This is what dark text on your primary color looks like</p>
-        <p class="large black">This is what large dark text on your primary color looks like</p>
-        <p class="small white">This is what white text on your primary color looks like</p>
-        <p class="large white">This is what large white text on your primary color looks like</p>
-      </div>
-      <hr>
-      <div class="secondary-ally">
-        <p class="small black">This is what dark text on your secondary color looks like</p>
-        <p class="large black">This is what large dark text on your secondary color looks like</p>
-        <p class="small white">This is what white text on your secondary color looks like</p>
-        <p class="large white">This is what large white text on your secondary color looks like</p>
-      </div>
+      <p
+        class="allyCheck"
+      >This theme has a contrast ratio of {{ contrast }} which makes it {{ compliance }}</p>
+      <p>
+        Learn more about WCAG text contrast compliance
+        <a
+          href="https://webaim.org/resources/contrastchecker/"
+        >here</a>
+      </p>
     </div>
 
     <div class="card">
@@ -123,8 +119,62 @@
 <script>
 var luminance = require("relative-luminance").default;
 export default {
-  name: "SampleElements"
+  name: "SampleElements",
+  data: function() {
+    return {
+      bgLumi: 0,
+      colorLumi: 0.021232136932028953,
+      contrast: 1.42,
+      compliance: "not compliant with WCAG"
+    };
+  },
+  methods: {
+    getContrast: function() {
+      let lumi1 = this.colorLumi;
+      let lumi2 = this.bgLumi;
+      this.contrast =
+        lumi1 > lumi2
+          ? (lumi1 + 0.05) / (lumi2 + 0.05)
+          : (lumi2 + 0.05) / (lumi1 + 0.05);
+      this.contrast = Math.round(this.contrast * 100) / 100;
+      if (this.contrast >= 7) {
+        this.compliance = "AAA compliant";
+      } else if (this.compliance >= 4.5) {
+        this.compliance = "AA compliant";
+      } else {
+        this.compliance = "not compliant with WCAG";
+      }
+    },
+    updateLumi: function() {
+      this.lumi1 = luminance(
+        getComputedStyle(document.querySelector(".allyCheck"))
+          .color.replace(/[^\d,]/g, "")
+          .split(",")
+      );
+      this.lumi2 = luminance(
+        getComputedStyle(document.querySelector(".allyCheck"))
+          .backgroundColor.replace(/[^\d,]/g, "")
+          .split(",")
+      );
+    }
+  }
 };
+/*
+const element = document.querySelector(".allyCheck");
+const colorArray = getComputedStyle(element)
+  .color.replace(/[^\d,]/g, "") 
+  .split(",");
+const lumi1 = luminance(colorArray);
+const backgroundArray = getComputedStyle(element)
+  .backgroundColor.replace(/[^\d,]/g, "") //regex to strip outer of string
+  .split(",");
+const lumi2 = luminance(backgroundArray);
+const contrast =
+  lumi1 > lumi2
+    ? (lumi1 + 0.05) / (lumi2 + 0.05)
+    : (lumi2 + 0.05) / (lumi1 + 0.05);
+console.log(lumi1, lumi2, contrast);
+*/
 </script>
 
 <style lang="scss" scoped>
