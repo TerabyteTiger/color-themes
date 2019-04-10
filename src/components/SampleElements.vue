@@ -159,12 +159,6 @@ export default {
     }
   }
 };
-console.log("text: ", luminance([53, 28, 77]));
-console.log("bg: ", luminance([255, 255, 255]));
-console.log(
-  "contrast: ",
-  (luminance([255, 255, 255]) + 0.05) / (luminance([53, 28, 77]) + 0.05)
-);
 /*
 const element = document.querySelector(".allyCheck");
 const colorArray = getComputedStyle(element)
