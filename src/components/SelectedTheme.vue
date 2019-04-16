@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div id="selected-Theme" @click="themePicker()" class="no-select">Change theme</div>
+    <button id="selected-Theme" @click="themePicker()" class="no-select">
+      <h1 class="btn">Click to change theme</h1>
+    </button>
     <transition name="expand">
       <ThemePicker v-show="showPicker"/>
     </transition>
@@ -43,6 +45,10 @@ export default {
   text-align: center;
 }
 
+.btn:hover {
+  text-decoration: underline;
+}
+
 .no-select {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -67,5 +73,9 @@ export default {
   100% {
     height: 50vh;
   }
+}
+
+div {
+  text-align: center;
 }
 </style>

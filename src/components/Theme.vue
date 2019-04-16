@@ -1,5 +1,5 @@
 <template>
-  <div :class="themeName" @click="setTheme">{{themeName}}</div>
+  <button :class="themeName" @click="setTheme">{{themeName}}</button>
 </template>
 
 <script>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped>
-div {
+button {
   float: left;
   width: 150px;
   padding: 35px 0;
