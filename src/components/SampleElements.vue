@@ -11,7 +11,6 @@
           href="https://webaim.org/resources/contrastchecker/"
         >here</a>
       </p>
-      <button @click="getContrast">Test</button>
     </div>
 
     <div class="card">
@@ -48,7 +47,7 @@
           <tr>
             <td>jsmith</td>
             <td>32</td>
-            <td>Tertiary</td>
+            <td>Primary</td>
           </tr>
         </tbody>
       </table>
@@ -245,6 +244,7 @@ table {
 }
 
 tr:nth-child(even) {
-  background-color: gainsboro;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 </style>

@@ -17,16 +17,9 @@ the ThemePicker.vue file so it becomes available as an option!
   --link: #765285;
 }
 
-.orange {
-  --primary: orange;
-  --secondary: #fff;
-  --accent: #f5ab99;
-  --link: #765285;
-}
-
 .dark {
   --primary: grey;
   --secondary: black;
-  --accent: green;
+  --accent: lime;
   --link: white;
 }
