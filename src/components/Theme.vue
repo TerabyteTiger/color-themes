@@ -1,11 +1,16 @@
 <template>
-  <div :class="themeName">{{themeName}}</div>
+  <div :class="themeName" @click="setTheme()">{{themeName}}</div>
 </template>
 
 <script>
 export default {
   name: "Theme",
-  props: ["themeName"]
+  props: ["themeName"],
+  methods: {
+    setTheme() {
+      document.getElementById("app").className = this.themeName;
+    }
+  }
 };
 </script>
 
@@ -21,18 +26,7 @@ div {
   background-color: var(--secondary);
   color: var(--primary);
 }
+</style>
 
-.primary {
-  --primary: #351c4d;
-  --secondary: #fff;
-  --accent: #f5ab99;
-  --link: #765285;
-}
-
-.orange {
-  --primary: orange;
-  --secondary: #fff;
-  --accent: #f5ab99;
-  --link: #765285;
-}
+<style scoped src="../assets/themes.css">
 </style>

@@ -1,0 +1,13 @@
+.primary {
+  --primary: #351c4d;
+  --secondary: #fff;
+  --accent: #f5ab99;
+  --link: #765285;
+}
+
+.orange {
+  --primary: orange;
+  --secondary: #fff;
+  --accent: #f5ab99;
+  --link: #765285;
+}

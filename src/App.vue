@@ -41,3 +41,6 @@ body {
   --link: #765285;
 }
 </style>
+
+<style src="./assets/themes.css">
+</style>
