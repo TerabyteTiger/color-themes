@@ -3,7 +3,7 @@
     <ul>
       <li>
         <a href="#">
-          <h1>Tyler's Theme Sampler</h1>
+          <h1>Theme Sampler</h1>
         </a>
       </li>
     </ul>
