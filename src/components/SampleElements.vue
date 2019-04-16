@@ -1,9 +1,9 @@
 <template>
   <div class="samples">
-    <div class="card center">
+    <div class="card center allyCheck">
       <h1>A11y</h1>
       <p
-        class="allyCheck"
+        class="allyCheckd"
       >This theme has a contrast ratio of {{ contrast }} which makes it {{ compliance }}.</p>
       <p>
         Learn more about WCAG text contrast compliance
@@ -11,6 +11,7 @@
           href="https://webaim.org/resources/contrastchecker/"
         >here</a>
       </p>
+      <button @click="getContrast">Test</button>
     </div>
 
     <div class="card">
@@ -90,7 +91,7 @@
         alt="200 by 300 random cat picture from Placekitten"
       >
     </div>
-
+    <!--
     <div class="card center">
       <h1>Forms (Inputs)</h1>
       <form>
@@ -113,10 +114,12 @@
         <input type="submit" value="Submit">
       </form>
     </div>
+    -->
   </div>
 </template>
 
 <script>
+import { log } from "util";
 var luminance = require("relative-luminance").default;
 export default {
   name: "SampleElements",
@@ -125,11 +128,14 @@ export default {
       bgLumi: 1,
       colorLumi: 0.021232136932028953,
       contrast: 14.74,
-      compliance: "AAA compliant"
+      compliance: "AAA compliant",
+      colorArray: [],
+      bgArray: []
     };
   },
   methods: {
     getContrast: function() {
+      this.updateLumi();
       let lumi1 = this.colorLumi;
       let lumi2 = this.bgLumi;
       this.contrast =
@@ -146,17 +152,28 @@ export default {
       }
     },
     updateLumi: function() {
-      this.lumi1 = luminance(
-        getComputedStyle(document.querySelector(".allyCheck"))
-          .color.replace(/[^\d,]/g, "")
-          .split(",")
-      );
-      this.lumi2 = luminance(
-        getComputedStyle(document.querySelector(".allyCheck"))
-          .backgroundColor.replace(/[^\d,]/g, "")
-          .split(",")
-      );
+      this.colorArray = getComputedStyle(document.querySelector(".allyCheck"))
+        .color.replace(/[^\d,]/g, "")
+        .split(",");
+      this.bgArray = getComputedStyle(document.querySelector(".allyCheck"))
+        .backgroundColor.replace(/[^\d,]/g, "")
+        .split(",");
+      this.bgLumi = luminance([
+        this.bgArray[0],
+        this.bgArray[1],
+        this.bgArray[2]
+      ]);
+      this.colorLumi = luminance([
+        this.colorArray[0],
+        this.colorArray[1],
+        this.colorArray[2]
+      ]);
     }
+  },
+  mounted() {
+    this.$root.$on("themeSelected", () => {
+      this.getContrast();
+    });
   }
 };
 /*

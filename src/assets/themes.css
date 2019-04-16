@@ -1,3 +1,15 @@
+/*** You can add your theme here by adding the following:
+.className {
+  --primary:
+  --secondary:
+  --accent:
+  --link:
+}
+
+If you do, don't forget to also add your theme to 
+the ThemePicker.vue file so it becomes available as an option! 
+***/
+
 .primary {
   --primary: #351c4d;
   --secondary: #fff;
@@ -10,4 +22,11 @@
   --secondary: #fff;
   --accent: #f5ab99;
   --link: #765285;
+}
+
+.dark {
+  --primary: grey;
+  --secondary: black;
+  --accent: green;
+  --link: white;
 }

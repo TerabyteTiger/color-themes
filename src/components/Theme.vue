@@ -1,5 +1,5 @@
 <template>
-  <div :class="themeName" @click="setTheme()">{{themeName}}</div>
+  <div :class="themeName" @click="setTheme">{{themeName}}</div>
 </template>
 
 <script>
@@ -9,6 +9,7 @@ export default {
   methods: {
     setTheme() {
       document.getElementById("app").className = this.themeName;
+      this.$root.$emit("themeSelected");
     }
   }
 };
