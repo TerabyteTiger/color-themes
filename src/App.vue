@@ -41,6 +41,10 @@ body {
   --accent: #f5ab99;
   --link: #765285;
 }
+
+a {
+  color: var(--link);
+}
 </style>
 
 <style src="./assets/themes.css">

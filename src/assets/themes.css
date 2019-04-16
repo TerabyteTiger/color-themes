@@ -18,7 +18,7 @@ the ThemePicker.vue file so it becomes available as an option!
 }
 
 .dark {
-  --primary: grey;
+  --primary: #80ffec;
   --secondary: black;
   --accent: lime;
   --link: white;

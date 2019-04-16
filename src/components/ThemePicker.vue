@@ -22,6 +22,7 @@ export default {
   text-align: center;
   height: 50vh;
   overflow-y: scroll;
+  padding: 0 100px;
 }
 </style>
 
