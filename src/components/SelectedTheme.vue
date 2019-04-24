@@ -4,7 +4,7 @@
       <h1 class="btn">Click to change theme</h1>
     </button>
     <transition name="expand">
-      <ThemePicker v-show="showPicker"/>
+      <ThemePicker v-show="showPicker" />
     </transition>
   </div>
 </template>
@@ -30,12 +30,11 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 #selected-Theme {
   background-color: var(--secondary);
   border: 5px solid var(--primary);
-  color: var(--accent);
+  color: var(--link);
   box-shadow: 0 0 4px #333;
   border-radius: 17px;
   min-height: 50px;

@@ -6,9 +6,19 @@
         This theme has a contrast ratio of {{ contrast }} which makes it
         {{ compliance }}.
       </p>
+
+      <p>
+        <a href="#">
+          This theme has a link contrast ratio of {{ linkContrast }} which makes
+          it {{ linkCompliance }}.
+        </a>
+      </p>
+
       <p>
         Learn more about WCAG text contrast compliance
-        <a href="https://webaim.org/resources/contrastchecker/">here</a>
+        <a href="https://webaim.org/resources/contrastchecker/" class="allyLink"
+          >here</a
+        >
       </p>
     </div>
 
@@ -124,10 +134,14 @@ export default {
     return {
       bgLumi: 1,
       colorLumi: 0.021232136932028953,
+      linkLumi: 0.1157959368559201,
       contrast: 14.74,
+      linkContrast: 7.79,
+      linkCompliance: "AAA compliant",
       compliance: "AAA compliant",
       colorArray: [],
-      bgArray: []
+      bgArray: [],
+      linkArray: []
     };
   },
   methods: {
@@ -135,6 +149,7 @@ export default {
       this.updateLumi();
       let lumi1 = this.colorLumi;
       let lumi2 = this.bgLumi;
+      let lumi3 = this.linkLumi;
       this.contrast =
         lumi1 > lumi2
           ? (lumi1 + 0.05) / (lumi2 + 0.05)
@@ -147,6 +162,19 @@ export default {
       } else {
         this.compliance = "not compliant with WCAG";
       }
+
+      this.linkContrast =
+        lumi3 > lumi2
+          ? (lumi3 + 0.05) / (lumi2 + 0.05)
+          : (lumi2 + 0.05) / (lumi3 + 0.05);
+      this.linkContrast = Math.round(this.linkContrast * 100) / 100;
+      if (this.linkContrast >= 7) {
+        this.linkCompliance = "AAA compliant";
+      } else if (this.linkCompliance >= 4.5) {
+        this.linkCompliance = "AA compliant";
+      } else {
+        this.linkCompliance = "not compliant with WCAG";
+      }
     },
     updateLumi: function() {
       this.colorArray = getComputedStyle(document.querySelector(".allyCheck"))
@@ -154,6 +182,9 @@ export default {
         .split(",");
       this.bgArray = getComputedStyle(document.querySelector(".allyCheck"))
         .backgroundColor.replace(/[^\d,]/g, "")
+        .split(",");
+      this.linkArray = getComputedStyle(document.querySelector(".allyLink"))
+        .color.replace(/[^\d,]/g, "")
         .split(",");
       this.bgLumi = luminance([
         this.bgArray[0],
@@ -165,6 +196,11 @@ export default {
         this.colorArray[1],
         this.colorArray[2]
       ]);
+      this.linkLumi = luminance([
+        this.linkArray[0],
+        this.linkArray[1],
+        this.linkArray[2]
+      ]);
     }
   },
   mounted() {
@@ -173,22 +209,6 @@ export default {
     });
   }
 };
-/*
-const element = document.querySelector(".allyCheck");
-const colorArray = getComputedStyle(element)
-  .color.replace(/[^\d,]/g, "") 
-  .split(",");
-const lumi1 = luminance(colorArray);
-const backgroundArray = getComputedStyle(element)
-  .backgroundColor.replace(/[^\d,]/g, "") //regex to strip outer of string
-  .split(",");
-const lumi2 = luminance(backgroundArray);
-const contrast =
-  lumi1 > lumi2
-    ? (lumi1 + 0.05) / (lumi2 + 0.05)
-    : (lumi2 + 0.05) / (lumi1 + 0.05);
-console.log(lumi1, lumi2, contrast);
-*/
 </script>
 
 <style lang="scss" scoped>

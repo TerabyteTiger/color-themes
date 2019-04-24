@@ -108,6 +108,7 @@ li:last-child {
   padding: 13px;
   font-size: 17px;
   background-color: var(--secondary);
+  color: var(--primary);
 }
 
 .primarySample {
