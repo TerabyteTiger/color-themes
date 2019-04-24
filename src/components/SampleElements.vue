@@ -2,14 +2,13 @@
   <div class="samples">
     <div class="card center allyCheck">
       <h1>A11y</h1>
-      <p
-        class="allyCheckd"
-      >This theme has a contrast ratio of {{ contrast }} which makes it {{ compliance }}.</p>
+      <p class="allyCheckd">
+        This theme has a contrast ratio of {{ contrast }} which makes it
+        {{ compliance }}.
+      </p>
       <p>
         Learn more about WCAG text contrast compliance
-        <a
-          href="https://webaim.org/resources/contrastchecker/"
-        >here</a>
+        <a href="https://webaim.org/resources/contrastchecker/">here</a>
       </p>
     </div>
 
@@ -57,10 +56,10 @@
       <h1>Paragraphs</h1>
       <p>This is a sample paragraph. It has one line.</p>
       <p>
-        This is also a sample paragraph, but it has more content! There's a sentence
-        about dogs. There's a sentence about cats. There's a sentence about birds. There's
-        a sentence about fish. There's a sentence about pigs. There's a sentence about
-        cows. There's even one about bears!
+        This is also a sample paragraph, but it has more content! There's a
+        sentence about dogs. There's a sentence about cats. There's a sentence
+        about birds. There's a sentence about fish. There's a sentence about
+        pigs. There's a sentence about cows. There's even one about bears!
       </p>
     </div>
 
@@ -88,7 +87,7 @@
       <img
         src="http://placekitten.com/200/300"
         alt="200 by 300 random cat picture from Placekitten"
-      >
+      />
     </div>
     <!--
     <div class="card center">
@@ -118,7 +117,6 @@
 </template>
 
 <script>
-import { log } from "util";
 var luminance = require("relative-luminance").default;
 export default {
   name: "SampleElements",

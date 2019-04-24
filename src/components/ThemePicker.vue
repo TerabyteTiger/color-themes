@@ -1,8 +1,8 @@
 <template>
   <div id="picker">
     <h1>Choose a new theme</h1>
-    <Theme theme-name="primary"/>
-    <Theme theme-name="dark"/>
+    <Theme theme-name="primary" />
+    <Theme theme-name="dark" />
   </div>
 </template>
 
@@ -18,11 +18,10 @@ export default {
 
 <style lang="scss" scoped>
 #picker {
-  background-color: gainsboro;
+  background-color: var(--accent);
   text-align: center;
   height: 50vh;
   overflow-y: scroll;
   padding: 0 100px;
 }
 </style>
-

@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="main">
-    <Navbar/>
-    <SelectedTheme/>
-    <SampleElements/>
+    <Navbar />
+    <SelectedTheme />
+    <SampleElements />
   </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 body {
   margin: 0;
   /*Reset Margin of page to 0*/
@@ -47,5 +47,4 @@ a {
 }
 </style>
 
-<style src="./assets/themes.css">
-</style>
+<style src="./assets/themes.css"></style>
