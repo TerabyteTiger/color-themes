@@ -2,14 +2,23 @@
   <div class="samples">
     <div class="card center allyCheck">
       <h1>A11y</h1>
-      <p
-        class="allyCheckd"
-      >This theme has a contrast ratio of {{ contrast }} which makes it {{ compliance }}.</p>
+      <p class="allyCheckd">
+        This theme has a contrast ratio of {{ contrast }} which makes it
+        {{ compliance }}.
+      </p>
+
+      <p>
+        <a href="#">
+          This theme has a link contrast ratio of {{ linkContrast }} which makes
+          it {{ linkCompliance }}.
+        </a>
+      </p>
+
       <p>
         Learn more about WCAG text contrast compliance
-        <a
-          href="https://webaim.org/resources/contrastchecker/"
-        >here</a>
+        <a href="https://webaim.org/resources/contrastchecker/" class="allyLink"
+          >here</a
+        >
       </p>
     </div>
 
@@ -33,20 +42,20 @@
         </thead>
         <tbody>
           <tr>
-            <td>jsmith</td>
+            <td>jSmith</td>
             <td>32</td>
             <td>Primary</td>
           </tr>
 
           <tr>
-            <td>jsmith</td>
-            <td>32</td>
+            <td>eSmith</td>
+            <td>24</td>
             <td>Secondary</td>
           </tr>
 
           <tr>
-            <td>jsmith</td>
-            <td>32</td>
+            <td>bSmith</td>
+            <td>66</td>
             <td>Primary</td>
           </tr>
         </tbody>
@@ -57,10 +66,10 @@
       <h1>Paragraphs</h1>
       <p>This is a sample paragraph. It has one line.</p>
       <p>
-        This is also a sample paragraph, but it has more content! There's a sentence
-        about dogs. There's a sentence about cats. There's a sentence about birds. There's
-        a sentence about fish. There's a sentence about pigs. There's a sentence about
-        cows. There's even one about bears!
+        This is also a sample paragraph, but it has more content! There's a
+        sentence about dogs. There's a sentence about cats. There's a sentence
+        about birds. There's a sentence about fish. There's a sentence about
+        pigs. There's a sentence about cows. There's even one about bears!
       </p>
     </div>
 
@@ -87,8 +96,8 @@
       <h1>Images</h1>
       <img
         src="http://placekitten.com/200/300"
-        alt="200 by 300 random cat picture from Placekitten"
-      >
+        alt="random cat picture from Placekitten"
+      />
     </div>
     <!--
     <div class="card center">
@@ -118,7 +127,6 @@
 </template>
 
 <script>
-import { log } from "util";
 var luminance = require("relative-luminance").default;
 export default {
   name: "SampleElements",
@@ -126,10 +134,14 @@ export default {
     return {
       bgLumi: 1,
       colorLumi: 0.021232136932028953,
+      linkLumi: 0.1157959368559201,
       contrast: 14.74,
+      linkContrast: 7.79,
+      linkCompliance: "AAA compliant",
       compliance: "AAA compliant",
       colorArray: [],
-      bgArray: []
+      bgArray: [],
+      linkArray: []
     };
   },
   methods: {
@@ -137,6 +149,7 @@ export default {
       this.updateLumi();
       let lumi1 = this.colorLumi;
       let lumi2 = this.bgLumi;
+      let lumi3 = this.linkLumi;
       this.contrast =
         lumi1 > lumi2
           ? (lumi1 + 0.05) / (lumi2 + 0.05)
@@ -149,6 +162,19 @@ export default {
       } else {
         this.compliance = "not compliant with WCAG";
       }
+
+      this.linkContrast =
+        lumi3 > lumi2
+          ? (lumi3 + 0.05) / (lumi2 + 0.05)
+          : (lumi2 + 0.05) / (lumi3 + 0.05);
+      this.linkContrast = Math.round(this.linkContrast * 100) / 100;
+      if (this.linkContrast >= 7) {
+        this.linkCompliance = "AAA compliant";
+      } else if (this.linkCompliance >= 4.5) {
+        this.linkCompliance = "AA compliant";
+      } else {
+        this.linkCompliance = "not compliant with WCAG";
+      }
     },
     updateLumi: function() {
       this.colorArray = getComputedStyle(document.querySelector(".allyCheck"))
@@ -156,6 +182,9 @@ export default {
         .split(",");
       this.bgArray = getComputedStyle(document.querySelector(".allyCheck"))
         .backgroundColor.replace(/[^\d,]/g, "")
+        .split(",");
+      this.linkArray = getComputedStyle(document.querySelector(".allyLink"))
+        .color.replace(/[^\d,]/g, "")
         .split(",");
       this.bgLumi = luminance([
         this.bgArray[0],
@@ -167,6 +196,11 @@ export default {
         this.colorArray[1],
         this.colorArray[2]
       ]);
+      this.linkLumi = luminance([
+        this.linkArray[0],
+        this.linkArray[1],
+        this.linkArray[2]
+      ]);
     }
   },
   mounted() {
@@ -175,22 +209,6 @@ export default {
     });
   }
 };
-/*
-const element = document.querySelector(".allyCheck");
-const colorArray = getComputedStyle(element)
-  .color.replace(/[^\d,]/g, "") 
-  .split(",");
-const lumi1 = luminance(colorArray);
-const backgroundArray = getComputedStyle(element)
-  .backgroundColor.replace(/[^\d,]/g, "") //regex to strip outer of string
-  .split(",");
-const lumi2 = luminance(backgroundArray);
-const contrast =
-  lumi1 > lumi2
-    ? (lumi1 + 0.05) / (lumi2 + 0.05)
-    : (lumi2 + 0.05) / (lumi1 + 0.05);
-console.log(lumi1, lumi2, contrast);
-*/
 </script>
 
 <style lang="scss" scoped>
