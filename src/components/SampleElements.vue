@@ -42,20 +42,20 @@
         </thead>
         <tbody>
           <tr>
-            <td>jsmith</td>
+            <td>jSmith</td>
             <td>32</td>
             <td>Primary</td>
           </tr>
 
           <tr>
-            <td>jsmith</td>
-            <td>32</td>
+            <td>eSmith</td>
+            <td>24</td>
             <td>Secondary</td>
           </tr>
 
           <tr>
-            <td>jsmith</td>
-            <td>32</td>
+            <td>bSmith</td>
+            <td>66</td>
             <td>Primary</td>
           </tr>
         </tbody>
@@ -96,7 +96,7 @@
       <h1>Images</h1>
       <img
         src="http://placekitten.com/200/300"
-        alt="200 by 300 random cat picture from Placekitten"
+        alt="random cat picture from Placekitten"
       />
     </div>
     <!--
