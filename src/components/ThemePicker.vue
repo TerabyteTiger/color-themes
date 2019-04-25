@@ -1,8 +1,8 @@
 <template>
   <div id="picker">
     <h1>Choose a new theme</h1>
-    <Theme theme-name="primary" />
-    <Theme theme-name="dark" />
+    <Theme theme-name="default-light"/>
+    <Theme theme-name="default-dark"/>
   </div>
 </template>
 

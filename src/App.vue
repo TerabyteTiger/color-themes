@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="main">
+  <div id="app" class="default-light">
     <Navbar/>
     <SelectedTheme/>
     <SampleElements/>
@@ -33,14 +33,6 @@ body {
   color: var(--text); /*#2c3e50;*/
   padding-bottom: 150px;
   background-color: var(--secondary);
-}
-
-.main {
-  --primary: #351c4d;
-  --secondary: #fff;
-  --accent: #f5ab99;
-  --link: #765285;
-  --text: #351c4d;
 }
 
 a {

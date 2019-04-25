@@ -165,7 +165,7 @@ export default {
       this.contrast = Math.round(this.contrast * 100) / 100;
       if (this.contrast >= 7) {
         this.compliance = "AAA compliant";
-      } else if (this.compliance >= 4.5) {
+      } else if (this.contrast >= 4.5) {
         this.compliance = "AA compliant";
       } else {
         this.compliance = "not compliant with WCAG";
@@ -178,7 +178,7 @@ export default {
       this.linkContrast = Math.round(this.linkContrast * 100) / 100;
       if (this.linkContrast >= 7) {
         this.linkCompliance = "AAA compliant";
-      } else if (this.linkCompliance >= 4.5) {
+      } else if (this.linkContrast >= 4.5) {
         this.linkCompliance = "AA compliant";
       } else {
         this.linkCompliance = "not compliant with WCAG";
@@ -191,7 +191,7 @@ export default {
       this.navContrast = Math.round(this.navContrast * 100) / 100;
       if (this.navContrast >= 7) {
         this.navCompliance = "AAA compliant";
-      } else if (this.navCompliance >= 4.5) {
+      } else if (this.navContrast >= 4.5) {
         this.navCompliance = "AA compliant";
       } else {
         this.navCompliance = "not compliant with WCAG";

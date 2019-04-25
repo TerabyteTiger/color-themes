@@ -12,7 +12,7 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
-.primary {
+.default-light {
   --primary: #351c4d;
   --secondary: #fff;
   --accent: #f5ab99;
@@ -20,10 +20,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #351c4d;
 }
 
-.dark {
-  --primary: #60afc1;
-  --secondary: #454b47;
-  --accent: #6d9593;
-  --link: #71c986;
+.default-dark {
+  --primary: #80c69f;
+  --secondary: #282b2b;
+  --accent: #66897f;
+  --link: #82e79a;
   --text: white;
 }
