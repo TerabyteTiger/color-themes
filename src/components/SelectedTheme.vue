@@ -4,7 +4,7 @@
       <h1 class="btn">Click to change theme</h1>
     </button>
     <transition name="expand">
-      <ThemePicker v-show="showPicker" />
+      <ThemePicker v-show="showPicker"/>
     </transition>
   </div>
 </template>
@@ -24,6 +24,7 @@ export default {
   },
   methods: {
     themePicker() {
+      // Used to toggle showing/hiding the list of existing themes
       this.showPicker = !this.showPicker;
     }
   }

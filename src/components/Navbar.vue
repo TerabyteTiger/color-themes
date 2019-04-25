@@ -43,6 +43,7 @@ export default {
   },
   methods: {
     updateColors: function() {
+      // Grab the variables for the current theme and store them on this component
       this.primary = getComputedStyle(
         document.querySelector("." + document.getElementById("app").className)
       ).getPropertyValue("--primary");
@@ -62,6 +63,8 @@ export default {
   },
   mounted() {
     this.$root.$on("themeSelected", () => {
+      // When a new theme is selected, it emits "themeSelected"
+      // When this happens, run the .updateColor() function
       this.updateColors();
     });
   }

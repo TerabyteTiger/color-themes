@@ -2,7 +2,7 @@
   <div class="samples">
     <div class="card center allyCheck">
       <h1>A11y</h1>
-      <p class="allyCheckd">
+      <p>
         This theme has a contrast ratio of {{ contrast }} which makes it
         {{ compliance }}.
       </p>
@@ -158,6 +158,7 @@ export default {
       let lumi2 = this.bgLumi;
       let lumi3 = this.linkLumi;
       let lumi4 = this.navLumi;
+      // Calculate Main Contrast Ratio
       this.contrast =
         lumi1 > lumi2
           ? (lumi1 + 0.05) / (lumi2 + 0.05)
@@ -171,6 +172,7 @@ export default {
         this.compliance = "not compliant with WCAG";
       }
 
+      // Calculate Link Contrast Ratio
       this.linkContrast =
         lumi3 > lumi2
           ? (lumi3 + 0.05) / (lumi2 + 0.05)
@@ -184,6 +186,7 @@ export default {
         this.linkCompliance = "not compliant with WCAG";
       }
 
+      // Calculate Navbar Contrast Ratio
       this.navContrast =
         lumi2 > lumi4
           ? (lumi2 + 0.05) / (lumi4 + 0.05)
@@ -198,6 +201,7 @@ export default {
       }
     },
     updateLumi: function() {
+      // Grab colors, use Regex to create Array
       this.colorArray = getComputedStyle(document.querySelector(".allyCheck"))
         .color.replace(/[^\d,]/g, "")
         .split(",");
@@ -211,6 +215,7 @@ export default {
         .backgroundColor.replace(/[^\d,]/g, "")
         .split(",");
 
+      // Use Luminance to calculate Luminance (range 0 - 1)
       this.bgLumi = luminance([
         this.bgArray[0],
         this.bgArray[1],
@@ -235,6 +240,8 @@ export default {
     }
   },
   mounted() {
+    // When a new theme is selected, it Emits "themeSelected"
+    // When this happens, run .getContrast()
     this.$root.$on("themeSelected", () => {
       this.getContrast();
     });
@@ -243,30 +250,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/*General classes*/
 .center {
   text-align: center;
-}
-
-.left {
-  text-align: left;
-}
-
-.large {
-  font-size: 14pt;
-  font-weight: bold;
-}
-
-.small {
-  font-size: 12pt;
-}
-
-.white {
-  color: white;
-}
-
-.black {
-  color: #333333;
 }
 
 /* Material Card setup */
@@ -281,6 +266,7 @@ export default {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 
+  // Align first h1 tag in each card
   > h1:nth-child(1) {
     text-align: center;
   }
