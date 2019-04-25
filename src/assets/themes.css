@@ -8,6 +8,8 @@
 
 If you do, don't forget to also add your theme to 
 the ThemePicker.vue file so it becomes available as an option! 
+
+Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
 .primary {
@@ -15,11 +17,13 @@ the ThemePicker.vue file so it becomes available as an option!
   --secondary: #fff;
   --accent: #f5ab99;
   --link: #674672;
+  --text: #351c4d;
 }
 
 .dark {
-  --primary: #80ffec;
-  --secondary: black;
-  --accent: lime;
-  --link: white;
+  --primary: #60afc1;
+  --secondary: #454b47;
+  --accent: #6d9593;
+  --link: #71c986;
+  --text: white;
 }

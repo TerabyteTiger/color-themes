@@ -13,6 +13,7 @@
             <div class="secondarySample">--secondary: {{ secondary }}</div>
             <div class="accentSample">--accent: {{ accent }}</div>
             <div class="linkSample">--link: {{ link }}</div>
+            <div class="textSample">--text: {{ text }}</div>
           </div>
           <a href="#" slot="reference">
             <h1>Hex Codes</h1>
@@ -36,7 +37,8 @@ export default {
       primary: "#351c4d",
       secondary: "#fff",
       accent: "#f5ab99",
-      link: "#765285"
+      link: "#765285",
+      text: "#351c4d"
     };
   },
   methods: {
@@ -53,6 +55,9 @@ export default {
       this.link = getComputedStyle(
         document.querySelector("." + document.getElementById("app").className)
       ).getPropertyValue("--link");
+      this.text = getComputedStyle(
+        document.querySelector("." + document.getElementById("app").className)
+      ).getPropertyValue("--text");
     }
   },
   mounted() {
@@ -108,7 +113,7 @@ li:last-child {
   padding: 13px;
   font-size: 17px;
   background-color: var(--secondary);
-  color: var(--primary);
+  color: var(--text);
 }
 
 .primarySample {
@@ -133,5 +138,10 @@ li:last-child {
   height: 16pt;
   padding-left: 5px;
   border-left: 15px solid var(--link);
+}
+.textSample {
+  height: 16pt;
+  padding-left: 5px;
+  border-left: 15px solid var(--text);
 }
 </style>

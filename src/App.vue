@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="main">
-    <Navbar />
-    <SelectedTheme />
-    <SampleElements />
+    <Navbar/>
+    <SelectedTheme/>
+    <SampleElements/>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ body {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: var(--text); /*#2c3e50;*/
   padding-bottom: 150px;
   background-color: var(--secondary);
 }
@@ -40,6 +40,7 @@ body {
   --secondary: #fff;
   --accent: #f5ab99;
   --link: #765285;
+  --text: #351c4d;
 }
 
 a {

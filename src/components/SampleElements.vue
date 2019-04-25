@@ -14,11 +14,17 @@
         </a>
       </p>
 
+      <p class="navCheck">
+        This theme header has a contrast ratio of {{ navContrast }} which makes it
+        {{ navCompliance }}.
+      </p>
+
       <p>
         Learn more about WCAG text contrast compliance
-        <a href="https://webaim.org/resources/contrastchecker/" class="allyLink"
-          >here</a
-        >
+        <a
+          href="https://webaim.org/resources/contrastchecker/"
+          class="allyLink"
+        >here</a>
       </p>
     </div>
 
@@ -94,10 +100,7 @@
 
     <div class="card center">
       <h1>Images</h1>
-      <img
-        src="http://placekitten.com/200/300"
-        alt="random cat picture from Placekitten"
-      />
+      <img src="http://placekitten.com/200/300" alt="random cat picture from Placekitten">
     </div>
     <!--
     <div class="card center">
@@ -135,13 +138,17 @@ export default {
       bgLumi: 1,
       colorLumi: 0.021232136932028953,
       linkLumi: 0.1157959368559201,
+      navLumi: 0.021232136932028953,
       contrast: 14.74,
       linkContrast: 7.79,
+      navContrast: 14.74,
       linkCompliance: "AAA compliant",
       compliance: "AAA compliant",
+      navCompliance: "AAA compliant",
       colorArray: [],
       bgArray: [],
-      linkArray: []
+      linkArray: [],
+      navTextArray: []
     };
   },
   methods: {
@@ -150,6 +157,7 @@ export default {
       let lumi1 = this.colorLumi;
       let lumi2 = this.bgLumi;
       let lumi3 = this.linkLumi;
+      let lumi4 = this.navLumi;
       this.contrast =
         lumi1 > lumi2
           ? (lumi1 + 0.05) / (lumi2 + 0.05)
@@ -175,6 +183,19 @@ export default {
       } else {
         this.linkCompliance = "not compliant with WCAG";
       }
+
+      this.navContrast =
+        lumi2 > lumi4
+          ? (lumi2 + 0.05) / (lumi4 + 0.05)
+          : (lumi4 + 0.05) / (lumi2 + 0.05);
+      this.navContrast = Math.round(this.navContrast * 100) / 100;
+      if (this.navContrast >= 7) {
+        this.navCompliance = "AAA compliant";
+      } else if (this.navCompliance >= 4.5) {
+        this.navCompliance = "AA compliant";
+      } else {
+        this.navCompliance = "not compliant with WCAG";
+      }
     },
     updateLumi: function() {
       this.colorArray = getComputedStyle(document.querySelector(".allyCheck"))
@@ -186,6 +207,10 @@ export default {
       this.linkArray = getComputedStyle(document.querySelector(".allyLink"))
         .color.replace(/[^\d,]/g, "")
         .split(",");
+      this.navTextArray = getComputedStyle(document.querySelector(".navCheck"))
+        .backgroundColor.replace(/[^\d,]/g, "")
+        .split(",");
+
       this.bgLumi = luminance([
         this.bgArray[0],
         this.bgArray[1],
@@ -200,6 +225,12 @@ export default {
         this.linkArray[0],
         this.linkArray[1],
         this.linkArray[2]
+      ]);
+
+      this.navLumi = luminance([
+        this.navTextArray[0],
+        this.navTextArray[1],
+        this.navTextArray[2]
       ]);
     }
   },
@@ -240,7 +271,7 @@ export default {
 
 /* Material Card setup */
 .card {
-  color: var(--primary);
+  color: var(--text);
   background-color: var(--secondary);
   border: 3px solid var(--accent);
   width: 50%;
@@ -262,6 +293,11 @@ table {
 }
 
 tr:nth-child(even) {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.navCheck {
   background-color: var(--primary);
   color: var(--secondary);
 }
