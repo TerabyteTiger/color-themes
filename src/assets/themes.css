@@ -13,6 +13,14 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.roseGold {
+  --primary: #75444C;
+  --secondary: #eabfb9;
+  --accent: #EB9C9C;
+  --link: #501E1E;
+  --text: #000;
+}
+
 .default-light {
   --primary: #351c4d;
   --secondary: #fff;
