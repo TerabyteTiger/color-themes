@@ -27,6 +27,7 @@
     </h1>
     <Theme theme-name="default-light" display-name="Default Light" contributor="12vanblart"/>
     <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
+    <Theme theme-name="roseGold" display-name="Rose Gold" contributor="stroudn1"/>
   </div>
 </template>
 
