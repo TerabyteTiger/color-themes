@@ -21,7 +21,7 @@
 
 <template>
   <div id="picker">
-    <h1>
+    <h1 class="secondary-text">
       Choose a
       <wbr>new theme
     </h1>
@@ -48,5 +48,19 @@ export default {
   height: 50vh;
   overflow-y: scroll;
   padding: 0 100px;
+}
+
+.secondary-text {
+  background-color: var(--secondary);
+}
+
+#picker > button:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #picker > button:not(:last-of-type) {
+    margin-right: 0;
+  }
 }
 </style>

@@ -31,7 +31,7 @@ button {
   width: 150px;
   padding: 35px 0;
   overflow: hidden;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   margin-top: 10px;
   border-radius: 5px;
   border: 5px solid var(--primary);
@@ -42,6 +42,7 @@ button {
 @media screen and (max-width: 600px) {
   button {
     width: 100%;
+    margin-left: 0;
   }
 }
 

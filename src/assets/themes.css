@@ -14,10 +14,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
 .roseGold {
-  --primary: #75444C;
+  --primary: #75444c;
   --secondary: #eabfb9;
-  --accent: #EB9C9C;
-  --link: #501E1E;
+  --accent: #eb9c9c;
+  --link: #501e1e;
   --text: #000;
 }
 
