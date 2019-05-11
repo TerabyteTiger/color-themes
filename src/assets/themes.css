@@ -13,6 +13,14 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.fish-finger {
+  --primary: #FFE66D;
+  --secondary: #19525B;
+  --accent: #FF6B6B;
+  --link: #4ECDC4;
+  --text: #F7FFF7;
+}
+
 .roseGold {
   --primary: #75444c;
   --secondary: #eabfb9;
