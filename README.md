@@ -1,5 +1,8 @@
 # color-themes
 
+## Learn how to submit a theme
+https://dev.to/12vanblart/make-your-first-pull-request-3iai
+
 ## Project setup
 ```
 npm install
