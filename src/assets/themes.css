@@ -13,6 +13,14 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.forest-theme {
+  --primary: #072b06;
+  --secondary: #ebe2e2;
+  --accent:#5a9455;
+  --link: #474646;
+  --text: #070f0a;
+}
+
 .fish-finger {
   --primary: #FFE66D;
   --secondary: #19525B;
