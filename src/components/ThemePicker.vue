@@ -29,6 +29,7 @@
     <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
     <Theme theme-name="roseGold" display-name="Rose Gold" contributor="stroudn1"/>
     <Theme theme-name="fish-finger" display-name="Fishfinger" contributor="iamjinme"/>
+    <Theme theme-name="forest-theme" display-name="Forest Theme" contributor="ewenearle"/>
   </div>
 </template>
 
