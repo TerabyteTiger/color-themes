@@ -1,6 +1,11 @@
 # color-themes
 
-## Learn how to submit a theme
+This is a project to walk through the process of creating a Pull Request by contributing to a small open source site! 
+
+## Learn about git - If you're new to git / GitHub, start here 👇
+https://dev.to/tvanblargan/crash-course-git-lingo-1enj
+
+## Tutorial for submitting a theme - If you're new to submitting PR's, start here 👇
 https://dev.to/12vanblart/make-your-first-pull-request-3iai
 
 ## Project setup
@@ -12,21 +17,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
