@@ -13,6 +13,15 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.morning-blue {
+  --primary: #092661  ;
+  --secondary: #e6e7ec;
+  --accent: #468aca;
+  --link: #101011;
+  --text: #092661 ;
+  
+}
+
 .forest-theme {
   --primary: #072b06;
   --secondary: #ebe2e2;
