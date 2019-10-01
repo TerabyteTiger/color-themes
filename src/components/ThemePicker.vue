@@ -32,6 +32,7 @@
     <Theme theme-name="forest-theme" display-name="Forest Theme" contributor="ewenearle"/>
     <Theme theme-name="arduino-theme" display-name="Arduino Theme" contributor="babel78"/>
     <Theme theme-name="morning-blue" display-name="Morning Blue" contributor="chinmay81098"/>
+    <Theme theme-name="bubblegum" display-name="Bubblegum" contributor="heatherpekrul"/>
   </div>
 </template>
 
