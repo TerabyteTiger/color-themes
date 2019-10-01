@@ -60,3 +60,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #177D2F;
   --text: black;
 }
+
+.bubblegum {
+  --primary: #B2215A;
+  --secondary: #ffe7f0;
+  --accent: #db286e;
+  --link: #56122d;
+  --text: black;
+}
