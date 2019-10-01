@@ -33,6 +33,7 @@
     <Theme theme-name="arduino-theme" display-name="Arduino Theme" contributor="babel78"/>
     <Theme theme-name="morning-blue" display-name="Morning Blue" contributor="chinmay81098"/>
     <Theme theme-name="bubblegum" display-name="Bubblegum" contributor="heatherpekrul"/>
+    <Theme theme-name="dracula" display-name="Dracula" contributor="SpaceLenore"/>
   </div>
 </template>
 
