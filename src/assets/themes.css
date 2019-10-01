@@ -53,10 +53,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: white;
 }
 
-.own-theme{
-  --primary: #1aba8a;
+.arduino-theme{
+  --primary: #0E5D46;
   --secondary: white;
   --accent: #f0651f;
-  --link: #82e79a;
+  --link: #177D2F;
   --text: black;
 }
