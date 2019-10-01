@@ -52,3 +52,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #82e79a;
   --text: white;
 }
+
+.own-theme{
+  --primary: #1aba8a;
+  --secondary: white;
+  --accent: #f0651f;
+  --link: #82e79a;
+  --text: black;
+}
