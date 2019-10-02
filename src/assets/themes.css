@@ -88,10 +88,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .purple-haze {
   --primary: #2c2f56;
-  --secondary: #9c85af;
+  --secondary: #D5D4E2;
   --accent: #3e2c56;
-  --link: #fff;
-  --text: #f8f8f2;
+  --link: #2c2f56;
+  --text: #2c2f56;
 }
 
 .coder {
