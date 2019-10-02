@@ -84,4 +84,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
     --accent: #50fa7b;
     --link: #8be9fd;
     --text: #f8f8f2;
-  }
+}
+
+.purple-haze {
+  --primary: #2c2f56;
+  --secondary: #9c85af;
+  --accent: #3e2c56;
+  --link: #fff;
+  --text: #f8f8f2;
+}
