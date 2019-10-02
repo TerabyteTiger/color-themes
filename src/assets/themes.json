@@ -1,0 +1,14 @@
+[
+  {"name": "default-light", "title": "Default Light", "contributor": "12vanblart"},
+  {"name": "default-dark", "title": "Default Dark", "contributor": "12vanblart"},
+  {"name": "roseGold", "title": "Rose Gold", "contributor": "stroudn1"},
+  {"name": "fish-finger", "title": "Fishfinger", "contributor": "iamjinme"},
+  {"name": "forest-theme", "title": "Forest Theme", "contributor": "ewenearle"},
+  {"name": "arduino-theme", "title": "Arduino Theme", "contributor": "babel78"},
+  {"name": "morning-blue", "title": "Morning Blue", "contributor": "chinmay81098"},
+  {"name": "bubblegum", "title": "Bubblegum", "contributor": "heatherpekrul"},
+  {"name": "dracula", "title": "Dracula", "contributor": "SpaceLenore"},
+  {"name": "purple-haze", "title": "Purple Haze", "contributor": "CariZa"},
+  {"name": "planet-express", "title": "Planet Express", "contributor": "kylerits" },
+  {"name": "coder", "title": "Coder Theme", "contributor": "ashishohri"}
+]

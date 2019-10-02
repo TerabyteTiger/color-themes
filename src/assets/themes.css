@@ -8,7 +8,7 @@
 }
 
 If you do, don't forget to also add your theme to 
-the ThemePicker.vue file so it becomes available as an option! 
+the themes.json file so it becomes available as an option! 
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
