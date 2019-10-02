@@ -14,18 +14,18 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
 .morning-blue {
-  --primary: #092661  ;
+  --primary: #092661;
   --secondary: #e6e7ec;
   --accent: #468aca;
   --link: #101011;
-  --text: #092661 ;
-  
+  --text: #092661;
+
 }
 
 .forest-theme {
   --primary: #072b06;
   --secondary: #ebe2e2;
-  --accent:#5a9455;
+  --accent: #5a9455;
   --link: #474646;
   --text: #070f0a;
 }
@@ -62,7 +62,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: white;
 }
 
-.arduino-theme{
+.arduino-theme {
   --primary: #0E5D46;
   --secondary: white;
   --accent: #f0651f;
@@ -92,3 +92,17 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
     --link: rgb(170, 224, 45);
     --text: #39ff14;
   }
+  --primary: #bd93f9;
+  --secondary: #282a36;
+  --accent: #50fa7b;
+  --link: #8be9fd;
+  --text: #f8f8f2;
+}
+
+.planet-express {
+  --primary: #0d7158;
+  --secondary: #e2e8e7;
+  --accent: #ca3e3e;
+  --link: #0a5949;
+  --text: #202524;
+}
