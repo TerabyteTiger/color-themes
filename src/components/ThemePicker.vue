@@ -35,6 +35,7 @@
     <Theme theme-name="bubblegum" display-name="Bubblegum" contributor="heatherpekrul"/>
     <Theme theme-name="dracula" display-name="Dracula" contributor="SpaceLenore"/>
     <Theme theme-name="planet-express" display-name="Planet Express" contributor="kylerits" />
+    <Theme theme-name="coder" display-name="Coder Theme" contributor="ashishohri"/>
   </div>
 </template>
 
