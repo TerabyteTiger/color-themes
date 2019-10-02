@@ -34,6 +34,7 @@
     <Theme theme-name="morning-blue" display-name="Morning Blue" contributor="chinmay81098"/>
     <Theme theme-name="bubblegum" display-name="Bubblegum" contributor="heatherpekrul"/>
     <Theme theme-name="dracula" display-name="Dracula" contributor="SpaceLenore"/>
+    <Theme theme-name="purple-haze" display-name="Purple Haze" contributor="CariZa"/>
     <Theme theme-name="planet-express" display-name="Planet Express" contributor="kylerits" />
     <Theme theme-name="coder" display-name="Coder Theme" contributor="ashishohri"/>
   </div>

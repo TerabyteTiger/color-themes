@@ -84,14 +84,23 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
     --accent: #50fa7b;
     --link: #8be9fd;
     --text: #f8f8f2;
-  }
-  .coder {
-    --primary:#39ff14;
-    --secondary: #000000;
-    --accent: #1f1e1e;
-    --link: rgb(170, 224, 45);
-    --text: #39ff14;
-  }
+}
+
+.purple-haze {
+  --primary: #2c2f56;
+  --secondary: #D5D4E2;
+  --accent: #3e2c56;
+  --link: #2c2f56;
+  --text: #2c2f56;
+}
+
+.coder {
+  --primary:#39ff14;
+  --secondary: #000000;
+  --accent: #1f1e1e;
+  --link: rgb(170, 224, 45);
+  --text: #39ff14;
+}
 
 .planet-express {
   --primary: #0d7158;
