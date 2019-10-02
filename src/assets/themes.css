@@ -92,12 +92,6 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
     --link: rgb(170, 224, 45);
     --text: #39ff14;
   }
-  --primary: #bd93f9;
-  --secondary: #282a36;
-  --accent: #50fa7b;
-  --link: #8be9fd;
-  --text: #f8f8f2;
-}
 
 .planet-express {
   --primary: #0d7158;
