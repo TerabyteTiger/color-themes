@@ -7,8 +7,8 @@
   --text:
 }
 
-If you do, don't forget to also add your theme to 
-the ThemePicker.vue file so it becomes available as an option! 
+If you do, don't forget to also add your theme to
+the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
@@ -108,4 +108,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #ca3e3e;
   --link: #0a5949;
   --text: #202524;
+}
+
+.dark-blue {
+  --primary: #0f2b2e;
+  --secondary: #c1dff0;
+  --accent: #2d898b;
+  --link: #4d2d25;
+  --text: #252425;
 }
