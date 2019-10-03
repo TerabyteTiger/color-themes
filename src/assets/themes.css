@@ -12,6 +12,21 @@ the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+.gameboy {
+  --primary: #35343c;
+  --secondary: #c3bcc4;
+  --accent: #160f31;
+  --link: #831c49;
+  --text: #140e30;
+}
+
+.light-dark {
+  --primary:  #66D9EF	;
+  --secondary: #272822	;
+  --accent:  #7fd9eb;
+  --link: #66D9EF;
+  --text:#FFFF;
+}
 
 .morning-blue {
   --primary: #092661;
@@ -108,6 +123,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #ca3e3e;
   --link: #0a5949;
   --text: #202524;
+}
+
+.soft-haze {
+  --primary: #523489;
+  --secondary: #F0F2F9;
+  --accent: #D5D7E6;
+  --link: #2700B0;
+  --text: #301E52;
 }
 
 .dark-blue {
