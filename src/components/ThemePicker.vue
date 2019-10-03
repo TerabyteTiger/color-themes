@@ -40,6 +40,7 @@
     <Theme theme-name="soft-haze" display-name="Soft Haze Theme" contributor="rebz"/>
     <Theme theme-name="light-dark" display-name="Light Dark" contributor="natandias"/>
     <Theme theme-name="gameboy" display-name="Gameboy" contributor="morsecodemedia"/>
+    <Theme theme-name="dark-blue" display-name="Blue" contributor="max003003003"/>
   </div>
 </template>
 
