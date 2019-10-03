@@ -37,6 +37,7 @@
     <Theme theme-name="purple-haze" display-name="Purple Haze" contributor="CariZa"/>
     <Theme theme-name="planet-express" display-name="Planet Express" contributor="kylerits" />
     <Theme theme-name="coder" display-name="Coder Theme" contributor="ashishohri"/>
+    <Theme theme-name="soft-haze" display-name="Soft Haze Theme" contributor="rebz"/>
     <Theme theme-name="light-dark" display-name="Light Dark" contributor="natandias"/>
   </div>
 </template>
