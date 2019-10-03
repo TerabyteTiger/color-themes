@@ -10,5 +10,8 @@
   {"name": "dracula", "title": "Dracula", "contributor": "SpaceLenore"},
   {"name": "purple-haze", "title": "Purple Haze", "contributor": "CariZa"},
   {"name": "planet-express", "title": "Planet Express", "contributor": "kylerits"},
-  {"name": "coder", "title": "Coder Theme", "contributor": "ashishohri"}
+  {"name": "coder", "title": "Coder Theme", "contributor": "ashishohri"},
+  {"name": "soft-haze", "title": "Soft Haze Theme", "contributor": "rebz"},
+  {"name": "light-dark", "title": "Light Dark", "contributor": "natandias"},
+  {"name": "gameboy", "title": "Gameboy", "contributor": "morsecodemedia"}
 ]
