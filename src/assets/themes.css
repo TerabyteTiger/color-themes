@@ -7,11 +7,18 @@
   --text:
 }
 
-If you do, don't forget to also add your theme to 
-the ThemePicker.vue file so it becomes available as an option! 
+If you do, don't forget to also add your theme to
+the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+.light-dark {
+  --primary:  #66D9EF	;
+  --secondary: #272822	;
+  --accent:  #7fd9eb;
+  --link: #66D9EF;
+  --text:#FFFF;
+}
 
 .morning-blue {
   --primary: #092661;
