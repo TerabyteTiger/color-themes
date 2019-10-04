@@ -41,6 +41,7 @@
     <Theme theme-name="light-dark" display-name="Light Dark" contributor="natandias"/>
     <Theme theme-name="gameboy" display-name="Gameboy" contributor="morsecodemedia"/>
     <Theme theme-name="dark-blue" display-name="Blue" contributor="max003003003"/>
+    <Theme theme-name="blue-theme" display-name="Blue Theme" contributor="lupecio"/>
   </div>
 </template>
 
