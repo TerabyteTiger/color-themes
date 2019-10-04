@@ -132,3 +132,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #2700B0;
   --text: #301E52;
 }
+
+.dark-blue {
+  --primary: #0f2b2e;
+  --secondary: #c1dff0;
+  --accent: #2d898b;
+  --link: #4d2d25;
+  --text: #252425;
+}
