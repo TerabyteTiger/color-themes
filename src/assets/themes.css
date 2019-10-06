@@ -21,11 +21,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .light-dark {
-  --primary:  #66D9EF	;
-  --secondary: #272822	;
-  --accent:  #7fd9eb;
-  --link: #66D9EF;
-  --text:#FFFF;
+  --primary: #66d9ef;
+  --secondary: #272822;
+  --accent: #7fd9eb;
+  --link: #66d9ef;
+  --text: #ffff;
 }
 
 .morning-blue {
@@ -34,7 +34,6 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #468aca;
   --link: #101011;
   --text: #092661;
-
 }
 
 .forest-theme {
@@ -46,11 +45,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .fish-finger {
-  --primary: #FFE66D;
-  --secondary: #19525B;
-  --accent: #FF6B6B;
-  --link: #4ECDC4;
-  --text: #F7FFF7;
+  --primary: #ffe66d;
+  --secondary: #19525b;
+  --accent: #ff6b6b;
+  --link: #4ecdc4;
+  --text: #f7fff7;
 }
 
 .roseGold {
@@ -78,15 +77,15 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .arduino-theme {
-  --primary: #0E5D46;
+  --primary: #0e5d46;
   --secondary: white;
   --accent: #f0651f;
-  --link: #177D2F;
+  --link: #177d2f;
   --text: black;
 }
 
 .bubblegum {
-  --primary: #B2215A;
+  --primary: #b2215a;
   --secondary: #ffe7f0;
   --accent: #db286e;
   --link: #56122d;
@@ -94,23 +93,23 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .dracula {
-    --primary: #bd93f9;
-    --secondary: #282a36;
-    --accent: #50fa7b;
-    --link: #8be9fd;
-    --text: #f8f8f2;
+  --primary: #bd93f9;
+  --secondary: #282a36;
+  --accent: #50fa7b;
+  --link: #8be9fd;
+  --text: #f8f8f2;
 }
 
 .purple-haze {
   --primary: #2c2f56;
-  --secondary: #D5D4E2;
+  --secondary: #d5d4e2;
   --accent: #3e2c56;
   --link: #2c2f56;
   --text: #2c2f56;
 }
 
 .coder {
-  --primary:#39ff14;
+  --primary: #39ff14;
   --secondary: #000000;
   --accent: #1f1e1e;
   --link: rgb(170, 224, 45);
@@ -127,10 +126,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .soft-haze {
   --primary: #523489;
-  --secondary: #F0F2F9;
-  --accent: #D5D7E6;
-  --link: #2700B0;
-  --text: #301E52;
+  --secondary: #f0f2f9;
+  --accent: #d5d7e6;
+  --link: #2700b0;
+  --text: #301e52;
 }
 
 .dark-blue {
@@ -142,9 +141,17 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .blue-theme {
-  --primary: #051B33;
-  --secondary: #80BDFF;
-  --accent: #143C66;
-  --link: #051B33;
-  --text: #051B33;
+  --primary: #051b33;
+  --secondary: #80bdff;
+  --accent: #143c66;
+  --link: #051b33;
+  --text: #051b33;
+}
+
+.fashion-theme {
+  --primary: #038c8c;
+  --secondary: #d9d2c5;
+  --accent: #400101;
+  --link: #A60303;
+  --text: #400101;
 }
