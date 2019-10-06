@@ -25,8 +25,11 @@
       Choose a
       <wbr>new theme
     </h1>
-    <Theme theme-name="default-light" display-name="Default Light" contributor="12vanblart"/>
-    <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
+    <div class="wrapper">
+      <Theme theme-name="default-light" display-name="Default Light" contributor="12vanblart"/>
+      <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
+    </div>
+    
   </div>
 </template>
 
@@ -47,5 +50,10 @@ export default {
   height: 50vh;
   overflow-y: scroll;
   padding: 0 100px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 </style>
