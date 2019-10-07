@@ -46,7 +46,7 @@
     <Theme theme-name="panda-theme" display-name="Panda Theme" contributor="gustavomagalhaes"/>
     <Theme theme-name="simple-blue" display-name="Simple Blue Theme" contributor="abdulamite"/>
     <Theme theme-name="primarily-pink" display-name="Primarily Pink" contributor="karaluton"/>
-    <Theme theme-name="a-purple-theme" display-name="A Purple Theme" contributor="joanthanfsilva" />
+    <Theme theme-name="a-purple-theme" display-name="A Purple Theme" contributor="jonathanfsilva" />
   </div>
 </template>
 
