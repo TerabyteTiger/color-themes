@@ -12,6 +12,15 @@ the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+
+.capuccino {
+  --primary: #3f3835;
+  --secondary: #d4c4ba;
+  --accent: #3d2b21;
+  --link: #3d3733;
+  --text: #3b351e;
+}
+
 .gameboy {
   --primary: #35343c;
   --secondary: #c3bcc4;
