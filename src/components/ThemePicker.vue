@@ -43,6 +43,7 @@
     <Theme theme-name="dark-blue" display-name="Blue" contributor="max003003003"/>
     <Theme theme-name="blue-theme" display-name="Blue Theme" contributor="lupecio"/>
     <Theme theme-name="panda-theme" display-name="Panda Theme" contributor="gustavomagalhaes"/>
+    <Theme theme-name="simple-blue" display-name="Simple Blue Theme" contributor="abdulamite"/>
   </div>
 </template>
 
