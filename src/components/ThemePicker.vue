@@ -42,6 +42,9 @@
     <Theme theme-name="gameboy" display-name="Gameboy" contributor="morsecodemedia"/>
     <Theme theme-name="dark-blue" display-name="Blue" contributor="max003003003"/>
     <Theme theme-name="blue-theme" display-name="Blue Theme" contributor="lupecio"/>
+    <Theme theme-name="capuccino" display-name="Capuccino" contributor="alexandrehiroyuki"/>
+    <Theme theme-name="panda-theme" display-name="Panda Theme" contributor="gustavomagalhaes"/>
+    <Theme theme-name="simple-blue" display-name="Simple Blue Theme" contributor="abdulamite"/>
     <Theme theme-name="primarily-pink" display-name="Primarily Pink" contributor="karaluton"/>
   </div>
 </template>

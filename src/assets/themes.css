@@ -12,6 +12,15 @@ the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+
+.capuccino {
+  --primary: #3f3835;
+  --secondary: #d4c4ba;
+  --accent: #3d2b21;
+  --link: #3d3733;
+  --text: #3b351e;
+}
+
 .gameboy {
   --primary: #35343c;
   --secondary: #c3bcc4;
@@ -155,4 +164,20 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #883677;
   --link: #1c1b20;
   --text: #1c1b20;
+}
+
+.simple-blue{
+  --primary: #23374d;
+  --secondary: #e5e5e5;
+  --accent: #1089ff;
+  --link: #089ff;;
+  --text:rgb(20, 19, 19);
+}
+
+.panda-theme {
+  --primary: #232528;
+  --secondary: #EAF6FF;
+  --accent: #054A91;
+  --link: #003A59;
+  --text: #222E50;
 }
