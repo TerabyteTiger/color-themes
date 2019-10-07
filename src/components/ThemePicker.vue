@@ -42,6 +42,7 @@
     <Theme theme-name="gameboy" display-name="Gameboy" contributor="morsecodemedia"/>
     <Theme theme-name="dark-blue" display-name="Blue" contributor="max003003003"/>
     <Theme theme-name="blue-theme" display-name="Blue Theme" contributor="lupecio"/>
+    <Theme theme-name="panda-theme" display-name="Panda Theme" contributor="gustavomagalhaes"/>
   </div>
 </template>
 
