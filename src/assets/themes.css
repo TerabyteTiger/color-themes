@@ -156,3 +156,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #089ff;;
   --text:rgb(20, 19, 19);
 }
+
+.panda-theme {
+  --primary: #232528;
+  --secondary: #EAF6FF;
+  --accent: #054A91;
+  --link: #003A59;
+  --text: #222E50;
+}
