@@ -205,3 +205,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #603a42;
   --text: #39202c;
 }
+
+.material-green {
+  --primary: #00e676 ;
+  --secondary: #212121;
+  --accent: #424242;
+  --link: #00e676;
+  --text: #fff;
+}
+
