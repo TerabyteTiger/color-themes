@@ -48,6 +48,8 @@
     <Theme theme-name="primarily-pink" display-name="Primarily Pink" contributor="karaluton"/>
     <Theme theme-name="a-purple-theme" display-name="A Purple Theme" contributor="jonathanfsilva" />
     <Theme theme-name="material-green" display-name="Material Green" contributor="Lucas-FilipeSS"/>
+    <Theme theme-name="classic-retro" display-name="Classic Retro" contributor="prismprince" />
+    <Theme theme-name="vintage-warm" display-name="Ventage Warm" contributor="prismprince" />
   </div>
 </template>
 

@@ -190,6 +190,22 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #152347;
 }
 
+.classic-retro {
+  --primary: #a7414a;
+  --secondary: #eee;
+  --accent: #563838;
+  --link: #755819;
+  --text: #282726;
+}
+
+.vintage-warm {
+  --primary: #603a42;
+  --secondary: #e0e0e0;
+  --accent: #d96648;
+  --link: #603a42;
+  --text: #39202c;
+}
+
 .material-green {
   --primary: #00e676 ;
   --secondary: #212121;
@@ -197,3 +213,4 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #00e676;
   --text: #fff;
 }
+
