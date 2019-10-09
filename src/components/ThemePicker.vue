@@ -47,6 +47,7 @@
     <Theme theme-name="simple-blue" display-name="Simple Blue Theme" contributor="abdulamite"/>
     <Theme theme-name="primarily-pink" display-name="Primarily Pink" contributor="karaluton"/>
     <Theme theme-name="a-purple-theme" display-name="A Purple Theme" contributor="jonathanfsilva" />
+    <Theme theme-name="red-theme" display-name="Red Theme" contributor="iamshadmirza" />
   </div>
 </template>
 
