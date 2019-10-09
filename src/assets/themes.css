@@ -189,3 +189,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #421a8b;
   --text: #152347;
 }
+
+.rainbow {
+  --primary: #FF595E;
+  --secondary: #FFCA3A;
+  --accent: #8AC926;
+  --link: #1982C4;
+  --text: #6A4C93;
+}
