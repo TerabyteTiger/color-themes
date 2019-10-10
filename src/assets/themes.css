@@ -214,3 +214,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #fff;
 }
 
+.october-orange {
+  --primary: #996100;
+  --secondary: #ffffff;
+  --accent: #292929;
+  --link: #795548;
+  --text: #000000;
+}
