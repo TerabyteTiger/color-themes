@@ -7,11 +7,68 @@
   --text:
 }
 
-If you do, don't forget to also add your theme to 
-the ThemePicker.vue file so it becomes available as an option! 
+If you do, don't forget to also add your theme to
+the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+
+.capuccino {
+  --primary: #3f3835;
+  --secondary: #d4c4ba;
+  --accent: #3d2b21;
+  --link: #3d3733;
+  --text: #3b351e;
+}
+
+.gameboy {
+  --primary: #35343c;
+  --secondary: #c3bcc4;
+  --accent: #160f31;
+  --link: #831c49;
+  --text: #140e30;
+}
+
+.light-dark {
+  --primary:  #66D9EF	;
+  --secondary: #272822	;
+  --accent:  #7fd9eb;
+  --link: #66D9EF;
+  --text:#FFFF;
+}
+
+.morning-blue {
+  --primary: #092661;
+  --secondary: #e6e7ec;
+  --accent: #468aca;
+  --link: #101011;
+  --text: #092661;
+
+}
+
+.forest-theme {
+  --primary: #072b06;
+  --secondary: #ebe2e2;
+  --accent: #5a9455;
+  --link: #474646;
+  --text: #070f0a;
+}
+
+.fish-finger {
+  --primary: #FFE66D;
+  --secondary: #19525B;
+  --accent: #FF6B6B;
+  --link: #4ECDC4;
+  --text: #F7FFF7;
+}
+
+.roseGold {
+  --primary: #75444c;
+  --secondary: #eabfb9;
+  --accent: #eb9c9c;
+  --link: #501e1e;
+  --text: #000;
+}
 
 .default-light {
   --primary: #351c4d;
@@ -27,4 +84,148 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #66897f;
   --link: #82e79a;
   --text: white;
+}
+
+.arduino-theme {
+  --primary: #0E5D46;
+  --secondary: white;
+  --accent: #f0651f;
+  --link: #177D2F;
+  --text: black;
+}
+
+.bubblegum {
+  --primary: #B2215A;
+  --secondary: #ffe7f0;
+  --accent: #db286e;
+  --link: #56122d;
+  --text: black;
+}
+
+.dracula {
+    --primary: #bd93f9;
+    --secondary: #282a36;
+    --accent: #50fa7b;
+    --link: #8be9fd;
+    --text: #f8f8f2;
+}
+
+.purple-haze {
+  --primary: #2c2f56;
+  --secondary: #D5D4E2;
+  --accent: #3e2c56;
+  --link: #2c2f56;
+  --text: #2c2f56;
+}
+
+.coder {
+  --primary:#39ff14;
+  --secondary: #000000;
+  --accent: #1f1e1e;
+  --link: rgb(170, 224, 45);
+  --text: #39ff14;
+}
+
+.planet-express {
+  --primary: #0d7158;
+  --secondary: #e2e8e7;
+  --accent: #ca3e3e;
+  --link: #0a5949;
+  --text: #202524;
+}
+
+.soft-haze {
+  --primary: #523489;
+  --secondary: #F0F2F9;
+  --accent: #D5D7E6;
+  --link: #2700B0;
+  --text: #301E52;
+}
+
+.dark-blue {
+  --primary: #0f2b2e;
+  --secondary: #c1dff0;
+  --accent: #2d898b;
+  --link: #4d2d25;
+  --text: #252425;
+}
+
+.blue-theme {
+  --primary: #051B33;
+  --secondary: #80BDFF;
+  --accent: #143C66;
+  --link: #051B33;
+  --text: #051B33;
+}
+
+.primarily-pink {
+  --primary: #6a4159;
+  --secondary: #feb4d1;
+  --accent: #883677;
+  --link: #1c1b20;
+  --text: #1c1b20;
+}
+
+.simple-blue{
+  --primary: #23374d;
+  --secondary: #e5e5e5;
+  --accent: #1089ff;
+  --link: #089ff;;
+  --text:rgb(20, 19, 19);
+}
+
+.panda-theme {
+  --primary: #232528;
+  --secondary: #EAF6FF;
+  --accent: #054A91;
+  --link: #003A59;
+  --text: #222E50;
+}
+
+.a-purple-theme {
+  --primary: #a11ec6;
+  --secondary: #ffffff;
+  --accent: #6d2397;
+  --link: #421a8b;
+  --text: #152347;
+}
+
+.red-theme {
+  --primary: #9A1818;
+  --secondary: #ffebee;
+  --accent: #d50000;
+  --link: #A30000;
+  --text: #9A1818;
+}
+
+.classic-retro {
+  --primary: #a7414a;
+  --secondary: #eee;
+  --accent: #563838;
+  --link: #755819;
+  --text: #282726;
+}
+
+.vintage-warm {
+  --primary: #603a42;
+  --secondary: #e0e0e0;
+  --accent: #d96648;
+  --link: #603a42;
+  --text: #39202c;
+}
+
+.material-green {
+  --primary: #00e676 ;
+  --secondary: #212121;
+  --accent: #424242;
+  --link: #00e676;
+  --text: #fff;
+}
+
+.october-orange {
+  --primary: #996100;
+  --secondary: #ffffff;
+  --accent: #292929;
+  --link: #795548;
+  --text: #000000;
 }
