@@ -9,11 +9,15 @@
       <li>
         <popper trigger="click" :options="{ placement: 'bottom' }">
           <div class="popper">
-            <div class="primarySample">--primary: {{ primary }}</div>
-            <div class="secondarySample">--secondary: {{ secondary }}</div>
-            <div class="accentSample">--accent: {{ accent }}</div>
-            <div class="linkSample">--link: {{ link }}</div>
-            <div class="textSample">--text: {{ text }}</div>
+            <div class="sample primarySample">--primary: {{ primary }}</div>
+            <div class="sample secondarySample">--secondary: {{ secondary }}</div>
+            <div class="sample accentSample">--accent: {{ accent }}</div>
+            <div class="sample linkSample">--link: {{ link }}</div>
+            <div class="sample textSample">--text: {{ text }}</div>
+            <hr />
+            <div class="floatRight" @click="handleCopyToClipboard">
+              <span class="copySample">Copy 📋</span>
+            </div>
           </div>
           <a href="#" slot="reference">
             <h1>Hex Codes</h1>
@@ -27,6 +31,8 @@
 <script>
 import Popper from "vue-popperjs";
 import "vue-popperjs/dist/vue-popper.css";
+import copyToClipboard from '../helpers/copyToClipboard.js';
+
 export default {
   name: "Navbar",
   components: {
@@ -34,6 +40,7 @@ export default {
   },
   data: function() {
     return {
+      currentTheme: undefined,
       primary: "#351c4d",
       secondary: "#fff",
       accent: "#f5ab99",
@@ -44,21 +51,28 @@ export default {
   methods: {
     updateColors: function() {
       // Grab the variables for the current theme and store them on this component
-      this.primary = getComputedStyle(
-        document.querySelector("." + document.getElementById("app").className)
-      ).getPropertyValue("--primary");
-      this.secondary = getComputedStyle(
-        document.querySelector("." + document.getElementById("app").className)
-      ).getPropertyValue("--secondary");
-      this.accent = getComputedStyle(
-        document.querySelector("." + document.getElementById("app").className)
-      ).getPropertyValue("--accent");
-      this.link = getComputedStyle(
-        document.querySelector("." + document.getElementById("app").className)
-      ).getPropertyValue("--link");
-      this.text = getComputedStyle(
-        document.querySelector("." + document.getElementById("app").className)
-      ).getPropertyValue("--text");
+      this.currentTheme = document.querySelector("." + document.getElementById("app").className);
+
+      this.primary = getComputedStyle(this.currentTheme).getPropertyValue("--primary");
+      this.secondary = getComputedStyle(this.currentTheme).getPropertyValue("--secondary");
+      this.accent = getComputedStyle(this.currentTheme).getPropertyValue("--accent");
+      this.link = getComputedStyle(this.currentTheme).getPropertyValue("--link");
+      this.text = getComputedStyle(this.currentTheme).getPropertyValue("--text");
+    },
+
+    handleCopyToClipboard: function() {
+      if (!this.currentTheme) return
+
+      const { primary, secondary, accent, link, text, currentTheme } = this;
+      const theme = `.${currentTheme.getAttribute("class")} {
+        --primary: ${primary};
+        --secondary: ${secondary};
+        --accent: ${accent};
+        --link: ${link};
+        --text: ${text};
+      }`;
+      
+      copyToClipboard(theme)
     }
   },
   mounted() {
@@ -119,32 +133,37 @@ li:last-child {
   color: var(--text);
 }
 
-.primarySample {
+.sample {
   height: 16pt;
   padding-left: 5px;
+}
+
+.primarySample {
   border-left: 15px solid var(--primary);
 }
 
 .secondarySample {
-  height: 16pt;
-  padding-left: 5px;
   border-left: 15px solid var(--secondary);
 }
 
 .accentSample {
-  height: 16pt;
-  padding-left: 5px;
   border-left: 15px solid var(--accent);
 }
 
 .linkSample {
-  height: 16pt;
-  padding-left: 5px;
   border-left: 15px solid var(--link);
 }
+
 .textSample {
-  height: 16pt;
-  padding-left: 5px;
   border-left: 15px solid var(--text);
+}
+
+.floatRight {
+  float: right;
+  cursor: pointer;
+}
+
+.copySample:hover {
+  text-decoration: underline;
 }
 </style>
