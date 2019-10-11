@@ -76,7 +76,6 @@ export default {
   padding: 0 100px;
 }
 
-<<<<<<< HEAD
 .secondary-text {
   background-color: var(--secondary);
 }
@@ -89,10 +88,10 @@ export default {
   #picker > button:not(:last-of-type) {
     margin-right: 0;
   }
-=======
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
->>>>>>> 13c9c4f81feb981cb3eb715948236c7af8cbc0d7
 }
 </style>
