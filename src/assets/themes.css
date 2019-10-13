@@ -237,3 +237,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ff7b00;
   --text: #ffee00;
 }
+.skyblue-theme {
+  --primary: #75EAF5;
+  --secondary: #212F3D  ;
+  --accent: #2E86C1 ;
+  --link: #24FFF7 ;
+  --text: #AED6F1 ;
+}
