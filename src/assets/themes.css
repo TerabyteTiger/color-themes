@@ -245,3 +245,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #6B4343;
   --text: #1D1111;
 }
+
+.sunset-blue {
+  --primary: #FF5E5B;
+  --secondary: #001021;
+  --accent: #373F51;
+  --link: #1B98E0;
+  --text: #FCFCFC;
+}
