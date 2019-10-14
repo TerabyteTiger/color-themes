@@ -26,7 +26,6 @@
       <wbr>new theme
     </h1>
     <div class="wrapper">
-      <Theme theme-name="ninja-theme" display-name="Ninja Theme" contributor="shekhar677"/>
       <Theme theme-name="default-light" display-name="Default Light" contributor="12vanblart"/>
       <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
       <Theme theme-name="roseGold" display-name="Rose Gold" contributor="stroudn1"/>
@@ -58,6 +57,7 @@
       <Theme theme-name="sunset-blue" display-name="Sunset blue" contributor="mannuelf" />
       <Theme theme-name="maybe-brown" display-name="Maybe brown" contributor="saurabhsabharwal"/>
       <Theme theme-name="skyblue-theme" display-name="skyblue-theme" contributor="LRK1696"/>
+      <Theme theme-name="ninja-theme" display-name="Ninja Theme" contributor="shekhar677"/>
 
     </div>
   </div>
