@@ -273,8 +273,8 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .pcc-theme {
   --primary: #6F15ED;
-  --secondary: #3626A7;
-  --accent: #657ED4;
-  --link: #FF331F;
-  --text: #464646;
+  --secondary: #F1E9FD;
+  --accent: #CAA9F8;
+  --link: #464646;
+  --text: #333333;
 }

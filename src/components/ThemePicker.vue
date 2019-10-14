@@ -58,7 +58,7 @@
       <Theme theme-name="maybe-brown" display-name="Maybe brown" contributor="saurabhsabharwal"/>
       <Theme theme-name="skyblue-theme" display-name="skyblue-theme" contributor="LRK1696"/>
       <Theme theme-name="ninja-theme" display-name="Ninja Theme" contributor="shekhar677"/>
-      <Theme theme-name="pcc-theme" display-name="PCC Theme" contributor="paulo_filho_dev"/>
+      <Theme theme-name="pcc-theme" display-name="PCC Theme" contributor="paulo-filho-dev"/>
 
     </div>
   </div>
