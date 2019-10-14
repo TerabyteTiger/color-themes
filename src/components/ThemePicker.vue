@@ -26,6 +26,7 @@
       <wbr>new theme
     </h1>
     <div class="wrapper">
+      <Theme theme-name="ninja-theme" display-name="Ninja Theme" contributor="shekhar677"/>
       <Theme theme-name="default-light" display-name="Default Light" contributor="12vanblart"/>
       <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
       <Theme theme-name="roseGold" display-name="Rose Gold" contributor="stroudn1"/>

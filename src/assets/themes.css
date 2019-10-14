@@ -13,6 +13,14 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.ninja-theme {
+  --primary: #FD423A;
+  --secondary: #212121;
+  --accent: #424242;
+  --link: #FFD721;
+  --text: #f3f3f3;
+}
+
 .capuccino {
   --primary: #3f3835;
   --secondary: #d4c4ba;
