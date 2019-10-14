@@ -269,3 +269,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #1B98E0;
   --text: #FCFCFC;
 }
+
+.soft-theme {
+  --primary: #523489;
+  --secondary: #F0F2F9;
+  --accent: #D5D7E6;
+  --link: #2700B0;
+  --text: #301E52;
+}
