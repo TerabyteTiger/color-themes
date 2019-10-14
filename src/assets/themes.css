@@ -238,6 +238,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #ffee00;
 }
 
+.maybe-brown {
+  --primary: #1D1111;
+  --secondary: #fff;
+  --accent: #6B4343;
+  --link: #6B4343;
+  --text: #1D1111;
+}
+
 .sunset-blue {
   --primary: #FF5E5B;
   --secondary: #001021;

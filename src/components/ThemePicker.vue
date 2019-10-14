@@ -55,6 +55,8 @@
       <Theme theme-name="red-theme" display-name="Red Theme" contributor="iamshadmirza" />
       <Theme theme-name="black-yellow" display-name="Black yellow" contributor="pipitorminator"/>
       <Theme theme-name="sunset-blue" display-name="Sunset blue" contributor="mannuelf" />
+      <Theme theme-name="maybe-brown" display-name="Maybe brown" contributor="saurabhsabharwal"/>
+
     </div>
   </div>
 </template>
