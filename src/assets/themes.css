@@ -237,3 +237,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ff7b00;
   --text: #ffee00;
 }
+
+.windy-green {
+  --primary: #472D30;
+  --secondary: #FFE1A8;
+  --accent: #E26D5C;
+  --link: #723D46;
+  --text: #472D30;
+}
