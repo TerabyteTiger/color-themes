@@ -13,6 +13,14 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.ninja-theme {
+  --primary: #FD423A;
+  --secondary: #212121;
+  --accent: #424242;
+  --link: #FFD721;
+  --text: #f3f3f3;
+}
+
 .capuccino {
   --primary: #3f3835;
   --secondary: #d4c4ba;
@@ -238,10 +246,35 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #ffee00;
 }
 
+ antonio-colors
 .windy-green {
   --primary: #472D30;
   --secondary: #FFE1A8;
   --accent: #E26D5C;
   --link: #723D46;
   --text: #472D30;
+
+.skyblue-theme {
+  --primary: #75EAF5;
+  --secondary: #212F3D  ;
+  --accent: #2E86C1 ;
+  --link: #24FFF7 ;
+  --text: #AED6F1 ;
+}
+
+.maybe-brown {
+  --primary: #1D1111;
+  --secondary: #fff;
+  --accent: #6B4343;
+  --link: #6B4343;
+  --text: #1D1111;
+}
+
+.sunset-blue {
+  --primary: #FF5E5B;
+  --secondary: #001021;
+  --accent: #373F51;
+  --link: #1B98E0;
+  --text: #FCFCFC;
+
 }
