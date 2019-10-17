@@ -317,3 +317,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ffc0cb;
   --text: #ffc0cb;
 }
+.unicornio{
+  --primary: #d8c0ff;
+  --secondary: #83335bcc;
+  --accent: #86d69e;
+  --link: #85585f;
+  --text: #f3ffc0;
+}
