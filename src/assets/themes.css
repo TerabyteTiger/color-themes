@@ -317,3 +317,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ffc0cb;
   --text: #ffc0cb;
 }
+
+.fatec-theme {
+  --primary: #942019;
+  --secondary: #f3f3f3;
+  --accent: #fefefe;
+  --link: #1472b0;
+  --text: #424242;
+}
