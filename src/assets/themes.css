@@ -269,11 +269,66 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #1B98E0;
   --text: #FCFCFC;
 }
-
 .violet-theme {
   --primary: #8B008B;
   --secondary:	#E6E6FA;
   --accent: #DDA0DD;
   --link: #9400D3;
   --text: black;
+}
+
+.starling-purple {
+  --primary: #7D5BA6;
+  --secondary: #FFFFFF;
+  --accent: #625834;
+  --link: #294C60;
+  --text: #30362F;
+}
+
+.nord {
+  --primary: #EBCB8B;
+  --secondary: #4C566A;
+  --accent: #81A1C1;
+  --link: #ECEFF4;
+  --text: #D8DEE9;
+}
+  
+.soft-theme {
+  --primary: #523489;
+  --secondary: #F0F2F9;
+  --accent: #D5D7E6;
+  --link: #2700B0;
+  --text: #301E52;
+}
+
+.brazil {
+  --primary: #002561; 
+  --secondary: #12D221;
+  --accent: rgb(240, 236, 0);
+  --link: #01020A;
+  --text: #002561;
+}
+
+.pcc-theme {
+  --primary: #6F15ED;
+  --secondary: #F1E9FD;
+  --accent: #CAA9F8;
+  --link: #464646;
+  --text: #333333;
+}
+
+.pink-black {
+  --primary: #ffc0cb;
+  --secondary: #000000cc;
+  --accent: #ffc0cb;
+  --link: #ffc0cb;
+  --text: #ffc0cb;
+}
+
+.fatec-theme {
+  --primary: #942019;
+  --secondary: #f3f3f3;
+  --accent: #fefefe;
+  --link: #1472b0;
+  --text: #424242;
 }
