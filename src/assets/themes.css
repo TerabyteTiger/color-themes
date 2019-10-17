@@ -317,3 +317,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ffc0cb;
   --text: #ffc0cb;
 }
+
+.minty-theme {
+  --primary: #F3969A;
+  --secondary: #78C2AD;
+  --accent: #F8F9Fa;
+  --link: #FFCE67;
+  --text: #F8F9Fa;
+}
