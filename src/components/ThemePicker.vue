@@ -58,8 +58,11 @@
       <Theme theme-name="maybe-brown" display-name="Maybe brown" contributor="saurabhsabharwal"/>
       <Theme theme-name="skyblue-theme" display-name="skyblue-theme" contributor="LRK1696"/>
       <Theme theme-name="ninja-theme" display-name="Ninja Theme" contributor="shekhar677"/>
+      <Theme theme-name="soft-theme" display-name="Soft Theme" contributor="eduardosgs"/>
+      <Theme theme-name="pink-black" display-name="Pink Black" contributor="tummala-manasa"/>
+      <Theme theme-name="pcc-theme" display-name="PCC Theme" contributor="paulo-filho-dev"/>
+      <Theme theme-name="brazil" display-name="Brazil" contributor="matheusuehara"/>
       <Theme theme-name="nord" display-name="Nord" contributor="jomagus"/>
-
     </div>
   </div>
 </template>
