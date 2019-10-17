@@ -63,6 +63,7 @@
       <Theme theme-name="pcc-theme" display-name="PCC Theme" contributor="paulo-filho-dev"/>
       <Theme theme-name="brazil" display-name="Brazil" contributor="matheusuehara"/>
       <Theme theme-name="nord" display-name="Nord" contributor="jomagus"/>
+      <Theme theme-name="starling-purple" display-name="Starling Purple" contributor="rahuldkjain"/>
     </div>
   </div>
 </template>

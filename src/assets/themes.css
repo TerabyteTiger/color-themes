@@ -270,6 +270,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #FCFCFC;
 }
 
+.starling-purple {
+  --primary: #7D5BA6;
+  --secondary: #FFFFFF;
+  --accent: #625834;
+  --link: #294C60;
+  --text: #30362F;
+}
+
 .nord {
   --primary: #EBCB8B;
   --secondary: #4C566A;
