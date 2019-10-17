@@ -64,6 +64,7 @@
       <Theme theme-name="brazil" display-name="Brazil" contributor="matheusuehara"/>
       <Theme theme-name="nord" display-name="Nord" contributor="jomagus"/>
       <Theme theme-name="starling-purple" display-name="Starling Purple" contributor="rahuldkjain"/>
+      <Theme theme-name="fatec-theme" display-name="Fatec Theme" contributor="felipez3r0"/>
     </div>
   </div>
 </template>
