@@ -271,9 +271,9 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .violet-theme {
-  --primary: #FF00FF;
-  --secondary: #8B008B;
+  --primary: #8B008B;
+  --secondary:	#E6E6FA;
   --accent: #DDA0DD;
-  --link: #4B0082;
-  --text: #EE82EE;
+  --link: #9400D3;
+  --text: black;
 }
