@@ -58,6 +58,7 @@
       <Theme theme-name="maybe-brown" display-name="Maybe brown" contributor="saurabhsabharwal"/>
       <Theme theme-name="skyblue-theme" display-name="skyblue-theme" contributor="LRK1696"/>
       <Theme theme-name="ninja-theme" display-name="Ninja Theme" contributor="shekhar677"/>
+      <Theme theme-name="violet-theme" display-name="Violet Theme" contributor="Pedro-Mantovani"/>
 
     </div>
   </div>
