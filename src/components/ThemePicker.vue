@@ -62,6 +62,7 @@
       <Theme theme-name="pink-black" display-name="Pink Black" contributor="tummala-manasa"/>
       <Theme theme-name="pcc-theme" display-name="PCC Theme" contributor="paulo-filho-dev"/>
       <Theme theme-name="brazil" display-name="Brazil" contributor="matheusuehara"/>
+      <Theme theme-name="nord" display-name="Nord" contributor="jomagus"/>
     </div>
   </div>
 </template>
