@@ -309,3 +309,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ffc0cb;
   --text: #ffc0cb;
 }
+
+.abitdark {
+  --primary: #525252;
+  --secondary: #414141;
+  --accent: #313131;
+  --link: #521477;
+  --text: #bdb8e3;
+}
