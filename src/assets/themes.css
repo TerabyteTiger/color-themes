@@ -292,7 +292,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ECEFF4;
   --text: #D8DEE9;
 }
-  
+
 .soft-theme {
   --primary: #523489;
   --secondary: #F0F2F9;
@@ -302,7 +302,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .brazil {
-  --primary: #002561; 
+  --primary: #002561;
   --secondary: #12D221;
   --accent: rgb(240, 236, 0);
   --link: #01020A;
@@ -331,4 +331,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #fefefe;
   --link: #1472b0;
   --text: #424242;
+}
+
+.black-olive-theme {
+  --primary: #3A3937;
+  --secondary: #fff;
+  --accent: #3A3937;
+  --link: black;
+  --text: black;
 }
