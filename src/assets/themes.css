@@ -342,6 +342,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #424242;
 }
 
+.black-olive-theme {
+  --primary: #3A3937;
+  --secondary: #fff;
+  --accent: #3A3937;
+  --link: black;
+  --text: black;
+}
+
 .hacker-theme {
   --primary: #E8C547;
   --secondary: #262626;
