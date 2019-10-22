@@ -269,6 +269,13 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #1B98E0;
   --text: #FCFCFC;
 }
+.violet-theme {
+  --primary: #8B008B;
+  --secondary:	#E6E6FA;
+  --accent: #DDA0DD;
+  --link: #9400D3;
+  --text: black;
+}
 
 .starling-purple {
   --primary: #7D5BA6;
@@ -324,4 +331,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #78C2AD;
   --link: #F3969A;
   --text: #78C2AD;
+}
+.fatec-theme {
+  --primary: #942019;
+  --secondary: #f3f3f3;
+  --accent: #fefefe;
+  --link: #1472b0;
+  --text: #424242;
 }
