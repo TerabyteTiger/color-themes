@@ -66,6 +66,7 @@
       <Theme theme-name="starling-purple" display-name="Starling Purple" contributor="rahuldkjain"/>
       <Theme theme-name="fatec-theme" display-name="Fatec Theme" contributor="felipez3r0"/>
       <Theme theme-name="violet-theme" display-name="Violet Theme" contributor="RedFaction"/>
+      <Theme theme-name="discord-theme" display-name="Discord Theme" contributor="FlouksBerlin"/>
       <Theme theme-name="minty-theme" display-name="Minty Theme" contributor="sharadasowmya14"/>
       <Theme theme-name="hacker-theme" display-name="hacker-theme" contributor="bartektelec"/>
       <Theme theme-name="black-olive-theme" display-name="Black Olive Theme" contributor="kotanagasruthi"/>

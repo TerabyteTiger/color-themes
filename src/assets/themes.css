@@ -342,6 +342,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #424242;
 }
 
+.discord-theme {
+  --primary:#859cef;
+  --secondary:#2C2F33;
+  --accent:#7289DA;
+  --link:#99AAB5;
+  --text:#FFFFFF
+}
+
 .vlad4him-theme {
   --primary: #000000cc;
   --secondary: #12D221;
