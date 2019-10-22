@@ -342,7 +342,15 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #424242;
 }
 
-.discord-theme {
+.ayu-theme {
+  --primary: #e6b450;
+  --secondary: #0a0e14;
+  --accent: #424242;
+  --link: #e6b450;
+  --text: #fff;
+}
+
+  .discord-theme {
   --primary:#859cef;
   --secondary:#2C2F33;
   --accent:#7289DA;
