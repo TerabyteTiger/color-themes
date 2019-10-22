@@ -69,6 +69,7 @@
       <Theme theme-name="minty-theme" display-name="Minty Theme" contributor="sharadasowmya14"/>
       <Theme theme-name="hacker-theme" display-name="hacker-theme" contributor="bartektelec"/>
       <Theme theme-name="black-olive-theme" display-name="Black Olive Theme" contributor="kotanagasruthi"/>
+      <Theme theme-name="vlad4him-theme" display-name="Vlad4him Theme" contributor="vlad4him"/>
     </div>
   </div>
 </template>

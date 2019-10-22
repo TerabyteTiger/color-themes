@@ -342,6 +342,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #424242;
 }
 
+.vlad4him-theme {
+  --primary: #000000cc;
+  --secondary: #12D221;
+  --accent: #fefefe;
+  --link: #2700B0;
+  --text: #424242;
+}
+
 .black-olive-theme {
   --primary: #3A3937;
   --secondary: #fff;
