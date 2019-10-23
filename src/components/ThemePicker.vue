@@ -73,6 +73,7 @@
       <Theme theme-name="vlad4him-theme" display-name="Vlad4him Theme" contributor="vlad4him"/>
       <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
       <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
+      <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
     </div>
   </div>
 </template>
