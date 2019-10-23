@@ -72,6 +72,7 @@
       <Theme theme-name="black-olive-theme" display-name="Black Olive Theme" contributor="kotanagasruthi"/>
       <Theme theme-name="vlad4him-theme" display-name="Vlad4him Theme" contributor="vlad4him"/>
       <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
+      <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
     </div>
   </div>
 </template>
