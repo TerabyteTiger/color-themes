@@ -405,3 +405,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #17221d;
   --text: #170724;
 }
+
+.book-theme {
+  --primary: #3c4937;
+  --secondary: #d7cfcc; /* */
+  --accent: #cd953e;
+  --link: #3c4937;
+  --text: #170724;
+}
