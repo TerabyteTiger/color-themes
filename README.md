@@ -17,3 +17,7 @@ npm install
 ```
 npm run serve
 ```
+
+## Hacktoberfest Note
+
+If your submitted theme doesn't meet WCAG standards, I'll be adding the `Invalid` tag to it until updated to an accessible theme. 

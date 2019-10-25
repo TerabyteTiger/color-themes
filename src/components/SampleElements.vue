@@ -100,7 +100,7 @@
 
     <div class="card center">
       <h1>Images</h1>
-      <img src="http://placekitten.com/200/300" alt="random cat picture from Placekitten">
+      <img src="/kitten.jpg" alt="picture of a cute cat from pixabay <3"/>
     </div>
     <!--
     <div class="card center">

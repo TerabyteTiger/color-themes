@@ -13,6 +13,14 @@ the ThemePicker.vue file so it becomes available as an option!
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
 
+.selesnya {
+  --primary: #013a0d;
+  --secondary: #f1f1f1;
+  --accent: #78c232;
+  --link: #9b2400;
+  --text: #012509;
+}
+
 .ninja-theme {
   --primary: #FD423A;
   --secondary: #212121;
@@ -38,11 +46,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .light-dark {
-  --primary:  #66D9EF	;
-  --secondary: #272822	;
-  --accent:  #7fd9eb;
+  --primary: #66D9EF;
+  --secondary: #272822;
+  --accent: #7fd9eb;
   --link: #66D9EF;
-  --text:#FFFF;
+  --text: #FFFF;
 }
 
 .morning-blue {
@@ -111,11 +119,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .dracula {
-    --primary: #bd93f9;
-    --secondary: #282a36;
-    --accent: #50fa7b;
-    --link: #8be9fd;
-    --text: #f8f8f2;
+  --primary: #bd93f9;
+  --secondary: #282a36;
+  --accent: #50fa7b;
+  --link: #8be9fd;
+  --text: #f8f8f2;
 }
 
 .purple-haze {
@@ -127,7 +135,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .coder {
-  --primary:#39ff14;
+  --primary: #39ff14;
   --secondary: #000000;
   --accent: #1f1e1e;
   --link: rgb(170, 224, 45);
@@ -174,12 +182,13 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #1c1b20;
 }
 
-.simple-blue{
+.simple-blue {
   --primary: #23374d;
   --secondary: #e5e5e5;
   --accent: #1089ff;
-  --link: #089ff;;
-  --text:rgb(20, 19, 19);
+  --link: #089ff;
+  ;
+  --text: rgb(20, 19, 19);
 }
 
 .panda-theme {
@@ -223,7 +232,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .material-green {
-  --primary: #00e676 ;
+  --primary: #00e676;
   --secondary: #212121;
   --accent: #424242;
   --link: #00e676;
@@ -248,10 +257,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .skyblue-theme {
   --primary: #75EAF5;
-  --secondary: #212F3D  ;
-  --accent: #2E86C1 ;
-  --link: #24FFF7 ;
-  --text: #AED6F1 ;
+  --secondary: #212F3D;
+  --accent: #2E86C1;
+  --link: #24FFF7;
+  --text: #AED6F1;
 }
 
 .maybe-brown {
@@ -269,9 +278,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #1B98E0;
   --text: #FCFCFC;
 }
+
 .violet-theme {
   --primary: #8B008B;
-  --secondary:	#E6E6FA;
+  --secondary: #E6E6FA;
   --accent: #DDA0DD;
   --link: #9400D3;
   --text: black;
@@ -292,7 +302,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #ECEFF4;
   --text: #D8DEE9;
 }
-  
+
 .soft-theme {
   --primary: #523489;
   --secondary: #F0F2F9;
@@ -302,7 +312,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .brazil {
-  --primary: #002561; 
+  --primary: #002561;
   --secondary: #12D221;
   --accent: rgb(240, 236, 0);
   --link: #01020A;
@@ -325,6 +335,13 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #ffc0cb;
 }
 
+.minty-theme {
+  --primary: #78C2AD;
+  --secondary: #000000;
+  --accent: #78C2AD;
+  --link: #F3969A;
+  --text: #78C2AD;
+}
 .fatec-theme {
   --primary: #942019;
   --secondary: #f3f3f3;
@@ -340,5 +357,69 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #032E0D;
   --text: #186329;
   
+}
+
+.ayu-theme {
+  --primary: #e6b450;
+  --secondary: #0a0e14;
+  --accent: #424242;
+  --link: #e6b450;
+  --text: #fff;
+}
+
+  .discord-theme {
+  --primary:#859cef;
+  --secondary:#2C2F33;
+  --accent:#7289DA;
+  --link:#99AAB5;
+  --text:#FFFFFF
+}
+
+.vlad4him-theme {
+  --primary: #000000cc;
+  --secondary: #12D221;
+  --accent: #fefefe;
+  --link: #2700B0;
+  --text: #424242;
+}
+
+.black-olive-theme {
+  --primary: #3A3937;
+  --secondary: #fff;
+  --accent: #3A3937;
+  --link: black;
+  --text: black;
+}
+
+.hacker-theme {
+  --primary: #E8C547;
+  --secondary: #262626;
+  --accent: #4D5061;
+  --link: #42DCFF;
+  --text: #DDF45B;
+}
+
+.red-brown {
+  --primary: #f64740;
+  --secondary: #281716;
+  --accent: #a3333d;
+  --link: #f64740;
+  --text: #d6d6d6;
+}
+
+.nature-theme {
+  --primary: #031f10;
+  --secondary: rgb(189, 168, 173);
+  --accent: #554b49;
+  --link: #17221d;
+  --text: #170724;
+}
+
+.mint-forest {
+  --primary: #5cdb95;
+  --secondary: #05386b;
+  --accent: #379683;
+  --link: #8ee4af;
+  --text: #edf5e1;
 }
 

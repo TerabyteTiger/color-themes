@@ -67,6 +67,16 @@
       <Theme theme-name="fatec-theme" display-name="Fatec Theme" contributor="felipez3r0"/>
       <Theme theme-name="violet-theme" display-name="Violet Theme" contributor="RedFaction"/>
       <Theme theme-name="green" display-name="Mint Green" contributor="smithandrewl"/>
+      <Theme theme-name="discord-theme" display-name="Discord Theme" contributor="FlouksBerlin"/>
+      <Theme theme-name="minty-theme" display-name="Minty Theme" contributor="sharadasowmya14"/>
+      <Theme theme-name="hacker-theme" display-name="hacker-theme" contributor="bartektelec"/>
+      <Theme theme-name="black-olive-theme" display-name="Black Olive Theme" contributor="kotanagasruthi"/>
+      <Theme theme-name="vlad4him-theme" display-name="Vlad4him Theme" contributor="vlad4him"/>
+      <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
+      <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
+      <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
+      <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
+      <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
     </div>
   </div>
 </template>
