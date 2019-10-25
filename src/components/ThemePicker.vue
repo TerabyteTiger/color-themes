@@ -66,6 +66,7 @@
       <Theme theme-name="starling-purple" display-name="Starling Purple" contributor="rahuldkjain"/>
       <Theme theme-name="fatec-theme" display-name="Fatec Theme" contributor="felipez3r0"/>
       <Theme theme-name="violet-theme" display-name="Violet Theme" contributor="RedFaction"/>
+      <Theme theme-name="green" display-name="Mint Green" contributor="smithandrewl"/>
     </div>
   </div>
 </template>
