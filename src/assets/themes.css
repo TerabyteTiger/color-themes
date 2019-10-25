@@ -412,4 +412,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #cd953e;
   --link: #3c4937;
   --text: #170724;
+
+.mint-forest {
+  --primary: #5cdb95;
+  --secondary: #05386b;
+  --accent: #379683;
+  --link: #8ee4af;
+  --text: #edf5e1;
 }

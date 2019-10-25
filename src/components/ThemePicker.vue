@@ -76,6 +76,7 @@
       <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="book-theme" display-name="Book Theme" contributor="kateboyko"/>
+      <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
     </div>
   </div>
 </template>
