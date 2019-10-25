@@ -75,6 +75,7 @@
       <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
       <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
+      <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
     </div>
   </div>
 </template>
