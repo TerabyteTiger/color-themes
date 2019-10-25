@@ -397,3 +397,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #f64740;
   --text: #d6d6d6;
 }
+
+.white-darkblack {
+  --primary: rgb(3, 3, 3);
+  --secondary: white;
+  --accent: rgb(104, 9, 61);
+  --link: rgb(17, 17, 1);
+  --text: rgb(1, 10, 19);
+}
+

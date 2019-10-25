@@ -74,7 +74,8 @@
       <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
       <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
       <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
-    </div>
+<Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>    
+  </div>
   </div>
 </template>
 
