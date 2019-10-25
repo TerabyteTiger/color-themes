@@ -406,3 +406,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: rgb(1, 10, 19);
 }
 
+.nature-theme {
+  --primary: #031f10;
+  --secondary: rgb(189, 168, 173);
+  --accent: #554b49;
+  --link: #17221d;
+  --text: #170724;
+}
