@@ -413,3 +413,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #8ee4af;
   --text: #edf5e1;
 }
+
+.wine-lover {
+  --primary: #460046;
+  --secondary: #FCFCFC;
+  --accent: #A84B8E;
+  --link: #340026;
+  --text: #460046;
+}
