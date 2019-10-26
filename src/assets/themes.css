@@ -413,3 +413,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #8ee4af;
   --text: #edf5e1;
 }
+
+.pokemon-go {
+  --primary: #f44e29;
+  --secondary: #f6cf99;
+  --accent: #5fc5b9;
+  --link: #f6eaad;
+  --text: #252527;
+}
