@@ -413,3 +413,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #8ee4af;
   --text: #edf5e1;
 }
+
+.spotify-theme {
+  --primary: #1BD760;
+  --secondary: #181818;
+  --accent: #B3B3B3;
+  --link: #FFFFFF;
+  --text: #B3B3B3;
+}
