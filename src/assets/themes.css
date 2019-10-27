@@ -22,10 +22,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .ninja-theme {
-  --primary: #FD423A;
+  --primary: #fd423a;
   --secondary: #212121;
   --accent: #424242;
-  --link: #FFD721;
+  --link: #ffd721;
   --text: #f3f3f3;
 }
 
@@ -46,11 +46,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .light-dark {
-  --primary: #66D9EF;
+  --primary: #66d9ef;
   --secondary: #272822;
   --accent: #7fd9eb;
-  --link: #66D9EF;
-  --text: #FFFF;
+  --link: #66d9ef;
+  --text: #ffff;
 }
 
 .morning-blue {
@@ -59,7 +59,6 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #468aca;
   --link: #101011;
   --text: #092661;
-
 }
 
 .forest-theme {
@@ -71,11 +70,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .fish-finger {
-  --primary: #FFE66D;
-  --secondary: #19525B;
-  --accent: #FF6B6B;
-  --link: #4ECDC4;
-  --text: #F7FFF7;
+  --primary: #ffe66d;
+  --secondary: #19525b;
+  --accent: #ff6b6b;
+  --link: #4ecdc4;
+  --text: #f7fff7;
 }
 
 .roseGold {
@@ -103,15 +102,15 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .arduino-theme {
-  --primary: #0E5D46;
+  --primary: #0e5d46;
   --secondary: white;
   --accent: #f0651f;
-  --link: #177D2F;
+  --link: #177d2f;
   --text: black;
 }
 
 .bubblegum {
-  --primary: #B2215A;
+  --primary: #b2215a;
   --secondary: #ffe7f0;
   --accent: #db286e;
   --link: #56122d;
@@ -128,7 +127,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .purple-haze {
   --primary: #2c2f56;
-  --secondary: #D5D4E2;
+  --secondary: #d5d4e2;
   --accent: #3e2c56;
   --link: #2c2f56;
   --text: #2c2f56;
@@ -152,10 +151,10 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .soft-haze {
   --primary: #523489;
-  --secondary: #F0F2F9;
-  --accent: #D5D7E6;
-  --link: #2700B0;
-  --text: #301E52;
+  --secondary: #f0f2f9;
+  --accent: #d5d7e6;
+  --link: #2700b0;
+  --text: #301e52;
 }
 
 .dark-blue {
@@ -167,11 +166,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .blue-theme {
-  --primary: #051B33;
-  --secondary: #80BDFF;
-  --accent: #143C66;
-  --link: #051B33;
-  --text: #051B33;
+  --primary: #051b33;
+  --secondary: #80bdff;
+  --accent: #143c66;
+  --link: #051b33;
+  --text: #051b33;
 }
 
 .primarily-pink {
@@ -187,16 +186,15 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --secondary: #e5e5e5;
   --accent: #1089ff;
   --link: #089ff;
-  ;
   --text: rgb(20, 19, 19);
 }
 
 .panda-theme {
   --primary: #232528;
-  --secondary: #EAF6FF;
-  --accent: #054A91;
-  --link: #003A59;
-  --text: #222E50;
+  --secondary: #eaf6ff;
+  --accent: #054a91;
+  --link: #003a59;
+  --text: #222e50;
 }
 
 .a-purple-theme {
@@ -208,11 +206,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .red-theme {
-  --primary: #9A1818;
+  --primary: #9a1818;
   --secondary: #ffebee;
   --accent: #d50000;
-  --link: #A30000;
-  --text: #9A1818;
+  --link: #a30000;
+  --text: #9a1818;
 }
 
 .classic-retro {
@@ -256,73 +254,73 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .skyblue-theme {
-  --primary: #75EAF5;
-  --secondary: #212F3D;
-  --accent: #2E86C1;
-  --link: #24FFF7;
-  --text: #AED6F1;
+  --primary: #75eaf5;
+  --secondary: #212f3d;
+  --accent: #2e86c1;
+  --link: #24fff7;
+  --text: #aed6f1;
 }
 
 .maybe-brown {
-  --primary: #1D1111;
+  --primary: #1d1111;
   --secondary: #fff;
-  --accent: #6B4343;
-  --link: #6B4343;
-  --text: #1D1111;
+  --accent: #6b4343;
+  --link: #6b4343;
+  --text: #1d1111;
 }
 
 .sunset-blue {
-  --primary: #FF5E5B;
+  --primary: #ff5e5b;
   --secondary: #001021;
-  --accent: #373F51;
-  --link: #1B98E0;
-  --text: #FCFCFC;
+  --accent: #373f51;
+  --link: #1b98e0;
+  --text: #fcfcfc;
 }
 
 .violet-theme {
-  --primary: #8B008B;
-  --secondary: #E6E6FA;
-  --accent: #DDA0DD;
-  --link: #9400D3;
+  --primary: #8b008b;
+  --secondary: #e6e6fa;
+  --accent: #dda0dd;
+  --link: #9400d3;
   --text: black;
 }
 
 .starling-purple {
-  --primary: #7D5BA6;
-  --secondary: #FFFFFF;
+  --primary: #7d5ba6;
+  --secondary: #ffffff;
   --accent: #625834;
-  --link: #294C60;
-  --text: #30362F;
+  --link: #294c60;
+  --text: #30362f;
 }
 
 .nord {
-  --primary: #EBCB8B;
-  --secondary: #4C566A;
-  --accent: #81A1C1;
-  --link: #ECEFF4;
-  --text: #D8DEE9;
+  --primary: #ebcb8b;
+  --secondary: #4c566a;
+  --accent: #81a1c1;
+  --link: #eceff4;
+  --text: #d8dee9;
 }
 
 .soft-theme {
   --primary: #523489;
-  --secondary: #F0F2F9;
-  --accent: #D5D7E6;
-  --link: #2700B0;
-  --text: #301E52;
+  --secondary: #f0f2f9;
+  --accent: #d5d7e6;
+  --link: #2700b0;
+  --text: #301e52;
 }
 
 .brazil {
   --primary: #002561;
-  --secondary: #12D221;
+  --secondary: #12d221;
   --accent: rgb(240, 236, 0);
-  --link: #01020A;
+  --link: #01020a;
   --text: #002561;
 }
 
 .pcc-theme {
-  --primary: #6F15ED;
-  --secondary: #F1E9FD;
-  --accent: #CAA9F8;
+  --primary: #6f15ed;
+  --secondary: #f1e9fd;
+  --accent: #caa9f8;
   --link: #464646;
   --text: #333333;
 }
@@ -336,11 +334,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .minty-theme {
-  --primary: #78C2AD;
+  --primary: #78c2ad;
   --secondary: #000000;
-  --accent: #78C2AD;
-  --link: #F3969A;
-  --text: #78C2AD;
+  --accent: #78c2ad;
+  --link: #f3969a;
+  --text: #78c2ad;
 }
 .fatec-theme {
   --primary: #942019;
@@ -358,36 +356,36 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #fff;
 }
 
-  .discord-theme {
-  --primary:#859cef;
-  --secondary:#2C2F33;
-  --accent:#7289DA;
-  --link:#99AAB5;
-  --text:#FFFFFF
+.discord-theme {
+  --primary: #859cef;
+  --secondary: #2c2f33;
+  --accent: #7289da;
+  --link: #99aab5;
+  --text: #ffffff;
 }
 
 .vlad4him-theme {
   --primary: #000000cc;
-  --secondary: #12D221;
+  --secondary: #12d221;
   --accent: #fefefe;
-  --link: #2700B0;
+  --link: #2700b0;
   --text: #424242;
 }
 
 .black-olive-theme {
-  --primary: #3A3937;
+  --primary: #3a3937;
   --secondary: #fff;
-  --accent: #3A3937;
+  --accent: #3a3937;
   --link: black;
   --text: black;
 }
 
 .hacker-theme {
-  --primary: #E8C547;
+  --primary: #e8c547;
   --secondary: #262626;
-  --accent: #4D5061;
-  --link: #42DCFF;
-  --text: #DDF45B;
+  --accent: #4d5061;
+  --link: #42dcff;
+  --text: #ddf45b;
 }
 
 .red-brown {
@@ -412,4 +410,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #379683;
   --link: #8ee4af;
   --text: #edf5e1;
+}
+
+.golden-ocean{
+  --primary: #f2b441;
+  --secondary: #5381e6;
+  --accent: #f7ca57;
+  --link: #7de2f0;
+  --text: #ffffff;
 }
