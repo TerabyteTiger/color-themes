@@ -79,6 +79,7 @@
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
       <Theme theme-name="deep-purple" display-name="Deep Purple" contributor="achudinovskyh"/>
       <Theme theme-name="spotify-theme" display-name="Spotify Theme" contributor="jayehernandez"/>
+      <Theme theme-name="wine-lover" display-name="Wine Lover" contributor="lulueller"/>
       
     </div>
   </div>

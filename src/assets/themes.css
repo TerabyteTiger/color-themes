@@ -422,6 +422,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #edf5e1;
 }
 
+.wine-lover {
+  --primary: #460046;
+  --secondary: #FCFCFC;
+  --accent: #A84B8E;
+  --link: #340026;
+  --text: #460046;
+}
+
 .spotify-theme {
   --primary: #1BD760;
   --secondary: #181818;
