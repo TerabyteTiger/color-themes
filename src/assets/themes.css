@@ -413,9 +413,9 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .golden-ocean{
-  --primary: #f2b441;
-  --secondary: #5381e6;
-  --accent: #f7ca57;
-  --link: #7de2f0;
-  --text: #ffffff;
+  --primary: #fabb25;
+  --secondary: #052db0;
+  --accent: #ba6504;
+  --link: #fad784;
+  --text: #edeceb;
 }
