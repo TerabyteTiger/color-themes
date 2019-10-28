@@ -78,11 +78,11 @@
       <Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>    
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
+      <Theme theme-name="golden-ocean" display-name="Golden Ocean" contributor="evandronmota"/>
       <Theme theme-name="deep-purple" display-name="Deep Purple" contributor="achudinovskyh"/>
       <Theme theme-name="spotify-theme" display-name="Spotify Theme" contributor="jayehernandez"/>
       <Theme theme-name="wine-lover" display-name="Wine Lover" contributor="lulueller"/>
       <Theme theme-name="sea-blue" display-name="Sea Blue" contributor="eppu"/>
-      
     </div>
   </div>
 </template>
