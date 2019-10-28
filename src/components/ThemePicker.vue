@@ -74,9 +74,13 @@
       <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
       <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
       <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
+      <Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>    
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
+      <Theme theme-name="deep-purple" display-name="Deep Purple" contributor="achudinovskyh"/>
+      <Theme theme-name="spotify-theme" display-name="Spotify Theme" contributor="jayehernandez"/>
       <Theme theme-name="wine-lover" display-name="Wine Lover" contributor="lulueller"/>
+      
     </div>
   </div>
 </template>
