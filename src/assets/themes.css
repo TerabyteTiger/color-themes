@@ -12,6 +12,13 @@ the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+.sea-blue {
+  --primary: #14c7d1;
+  --secondary: #0d3c44;
+  --accent: #040404;
+  --link: #fff;
+  --text: #d7d9ce;
+}
 
 .selesnya {
   --primary: #013a0d;
