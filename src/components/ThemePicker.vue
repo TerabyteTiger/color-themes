@@ -80,6 +80,7 @@
       <Theme theme-name="deep-purple" display-name="Deep Purple" contributor="achudinovskyh"/>
       <Theme theme-name="spotify-theme" display-name="Spotify Theme" contributor="jayehernandez"/>
       <Theme theme-name="wine-lover" display-name="Wine Lover" contributor="lulueller"/>
+      <Theme theme-name="sea-blue" display-name="Sea Blue" contributor="eppu"/>
       
     </div>
   </div>
