@@ -12,6 +12,13 @@ the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
+.sea-blue {
+  --primary: #14c7d1;
+  --secondary: #0d3c44;
+  --accent: #040404;
+  --link: #fff;
+  --text: #d7d9ce;
+}
 
 .selesnya {
   --primary: #013a0d;
@@ -407,6 +414,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #d6d6d6;
 }
 
+.white-darkblack {
+  --primary: rgb(3, 3, 3);
+  --secondary: white;
+  --accent: rgb(104, 9, 61);
+  --link: rgb(17, 17, 1);
+  --text: rgb(1, 10, 19);
+}
+
 .nature-theme {
   --primary: #031f10;
   --secondary: rgb(189, 168, 173);
@@ -423,3 +438,26 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #edf5e1;
 }
 
+.wine-lover {
+  --primary: #460046;
+  --secondary: #FCFCFC;
+  --accent: #A84B8E;
+  --link: #340026;
+  --text: #460046;
+}
+
+.spotify-theme {
+  --primary: #1BD760;
+  --secondary: #181818;
+  --accent: #B3B3B3;
+  --link: #FFFFFF;
+  --text: #B3B3B3;
+}
+
+.deep-purple {
+  --primary: #efb6ff;
+  --secondary: #3700B3;
+  --accent: #6200EE;
+  --link: #efff51;
+  --text: #ffe6c9;
+}
