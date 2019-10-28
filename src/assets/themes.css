@@ -357,6 +357,15 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #424242;
 }
 
+.green {
+  --secondary: #FFFFFF;
+  --accent: #186329;
+  --primary: #186329;
+  --link: #032E0D;
+  --text: #186329;
+  
+}
+
 .ayu-theme {
   --primary: #e6b450;
   --secondary: #0a0e14;
