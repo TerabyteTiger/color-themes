@@ -398,6 +398,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #d6d6d6;
 }
 
+.white-darkblack {
+  --primary: rgb(3, 3, 3);
+  --secondary: white;
+  --accent: rgb(104, 9, 61);
+  --link: rgb(17, 17, 1);
+  --text: rgb(1, 10, 19);
+}
+
 .nature-theme {
   --primary: #031f10;
   --secondary: rgb(189, 168, 173);
@@ -420,4 +428,12 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --accent: #B3B3B3;
   --link: #FFFFFF;
   --text: #B3B3B3;
+}
+
+.deep-purple {
+  --primary: #efb6ff;
+  --secondary: #3700B3;
+  --accent: #6200EE;
+  --link: #efff51;
+  --text: #ffe6c9;
 }
