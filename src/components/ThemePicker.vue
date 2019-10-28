@@ -77,6 +77,7 @@
       <Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>    
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
+      <Theme theme-name="deep-purple" display-name="Deep Purple" contributor="achudinovskyh"/>
     </div>
   </div>
 </template>
