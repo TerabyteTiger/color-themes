@@ -414,9 +414,9 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #edf5e1;
 }
 .ice-cream {
-  --primary: #0c093c;
-  --secondary: #fad6d6;
+  --primary: #df42d1;
+  --secondary: #0c093c;
   --accent: #eea5f6;
   --link: #df42d1;
-  --text: #0c093c;
+  --text: #fad6d6;
 }
