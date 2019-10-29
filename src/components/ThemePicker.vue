@@ -75,7 +75,7 @@
       <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
       <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
       <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
-      <Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>    
+      <Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
       <Theme theme-name="golden-ocean" display-name="Golden Ocean" contributor="evandronmota"/>
@@ -85,6 +85,7 @@
       <Theme theme-name="sea-blue" display-name="Sea Blue" contributor="eppu"/>
       <Theme theme-name="ice-cream" display-name="Ice Cream" contributor="ikrydev"/>
       <Theme theme-name="halloween" display-name="Halloween" contributor="evandronmota"/>
+      <Theme theme-name="paper" display-name="Paper" contributor="ckouder"/>
 
     </div>
   </div>

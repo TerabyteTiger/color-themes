@@ -361,7 +361,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --primary: #186329;
   --link: #032E0D;
   --text: #186329;
-  
+
 }
 
 .ayu-theme {
@@ -481,5 +481,21 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --secondary: #84fc4c;
   --accent: #a407de;
   --link: #284f02;
+  --text: #000000;
+}
+
+.halloween {
+  --primary: #870299;
+  --secondary: #84fc4c;
+  --accent: #a407de;
+  --link: #284f02;
+  --text: #000000;
+}
+
+.paper {
+  --primary: #e56c41;
+  --secondary: #f5f4f0;
+  --accent: #fdc136;
+  --link: #315784;
   --text: #000000;
 }
