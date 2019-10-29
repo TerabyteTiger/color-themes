@@ -436,6 +436,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #edf5e1;
 }
 
+.ice-cream {
+  --primary: #df42d1;
+  --secondary: #0c093c;
+  --accent: #eea5f6;
+  --link: #df42d1;
+  --text: #fad6d6;
+}
+
 .golden-ocean{
   --primary: #fabb25;
   --secondary: #052db0;
