@@ -84,6 +84,7 @@
       <Theme theme-name="wine-lover" display-name="Wine Lover" contributor="lulueller"/>
       <Theme theme-name="sea-blue" display-name="Sea Blue" contributor="eppu"/>
       <Theme theme-name="ice-cream" display-name="Ice Cream" contributor="ikrydev"/>
+      <Theme theme-name="halloween" display-name="Halloween" contributor="evandronmota"/>
 
     </div>
   </div>
