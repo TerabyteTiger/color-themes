@@ -66,6 +66,7 @@
       <Theme theme-name="starling-purple" display-name="Starling Purple" contributor="rahuldkjain"/>
       <Theme theme-name="fatec-theme" display-name="Fatec Theme" contributor="felipez3r0"/>
       <Theme theme-name="violet-theme" display-name="Violet Theme" contributor="RedFaction"/>
+      <Theme theme-name="green" display-name="Mint Green" contributor="smithandrewl"/>
       <Theme theme-name="discord-theme" display-name="Discord Theme" contributor="FlouksBerlin"/>
       <Theme theme-name="minty-theme" display-name="Minty Theme" contributor="sharadasowmya14"/>
       <Theme theme-name="hacker-theme" display-name="hacker-theme" contributor="bartektelec"/>
@@ -74,9 +75,14 @@
       <Theme theme-name="ayu-theme" display-name="Ayu Theme" contributor="tatthien"/>
       <Theme theme-name="selesnya" display-name="Selesnya" contributor="Joseph-Whiunui"/>
       <Theme theme-name="red-brown" display-name="Red brown" contributor="Topekz"/>
+      <Theme theme-name="white-darkblack" display-name="White black" contributor="narayanashanubhog"/>    
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
       <Theme theme-name="golden-ocean" display-name="Golden Ocean" contributor="evandronmota"/>
+      <Theme theme-name="deep-purple" display-name="Deep Purple" contributor="achudinovskyh"/>
+      <Theme theme-name="spotify-theme" display-name="Spotify Theme" contributor="jayehernandez"/>
+      <Theme theme-name="wine-lover" display-name="Wine Lover" contributor="lulueller"/>
+      <Theme theme-name="sea-blue" display-name="Sea Blue" contributor="eppu"/>
       <Theme theme-name="halloween" display-name="Halloween" contributor="evandronmota"/>
     </div>
   </div>
@@ -119,5 +125,6 @@ export default {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 1.5em;
 }
 </style>
