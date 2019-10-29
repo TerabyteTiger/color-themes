@@ -77,6 +77,7 @@
       <Theme theme-name="nature-theme" display-name="Nature Theme" contributor="sivanbecker"/>
       <Theme theme-name="mint-forest" display-name="Mint Forest" contributor="ydegtyar"/>
       <Theme theme-name="golden-ocean" display-name="Golden Ocean" contributor="evandronmota"/>
+      <Theme theme-name="halloween" display-name="Halloween" contributor="evandronmota"/>
     </div>
   </div>
 </template>

@@ -419,3 +419,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #fad784;
   --text: #edeceb;
 }
+
+.halloween {
+  --primary: #870299;
+  --secondary: #84fc4c;
+  --accent: #a407de;
+  --link: #284f02;
+  --text: #000000;
+}
