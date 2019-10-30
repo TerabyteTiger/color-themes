@@ -85,7 +85,7 @@
       <Theme theme-name="sea-blue" display-name="Sea Blue" contributor="eppu"/>
       <Theme theme-name="ice-cream" display-name="Ice Cream" contributor="ikrydev"/>
       <Theme theme-name="halloween" display-name="Halloween" contributor="evandronmota"/>
-
+      <Theme theme-name="cowry-wise-vibes" display-name="Cowrywise Vibes" contributor="seyidayo" />
     </div>
   </div>
 </template>
