@@ -483,3 +483,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --link: #284f02;
   --text: #000000;
 }
+
+.cowry-wise-vibes {
+    --primary: #0066f5;
+    --secondary: #F4F8FC;
+    --accent:#022B69;
+    --link: #0066f5;
+    --text: #022B69;
+}
