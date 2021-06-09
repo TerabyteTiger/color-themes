@@ -20,6 +20,14 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #d7d9ce;
 }
 
+.default-light-2 {
+  --primary: #fff365;
+  --secondary: #09f900;
+  --accent: #040404;
+  --link: #fff;
+  --text: #d7d9ce;
+}
+
 .selesnya {
   --primary: #013a0d;
   --secondary: #f1f1f1;
@@ -356,12 +364,11 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .green {
-  --secondary: #FFFFFF;
+  --secondary: #ffffff;
   --accent: #186329;
   --primary: #186329;
-  --link: #032E0D;
+  --link: #032e0d;
   --text: #186329;
-  
 }
 
 .ayu-theme {
@@ -444,7 +451,7 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
   --text: #fad6d6;
 }
 
-.golden-ocean{
+.golden-ocean {
   --primary: #fabb25;
   --secondary: #052db0;
   --accent: #ba6504;
@@ -454,24 +461,24 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 
 .wine-lover {
   --primary: #460046;
-  --secondary: #FCFCFC;
-  --accent: #A84B8E;
+  --secondary: #fcfcfc;
+  --accent: #a84b8e;
   --link: #340026;
   --text: #460046;
 }
 
 .spotify-theme {
-  --primary: #1BD760;
+  --primary: #1bd760;
   --secondary: #181818;
-  --accent: #B3B3B3;
-  --link: #FFFFFF;
-  --text: #B3B3B3;
+  --accent: #b3b3b3;
+  --link: #ffffff;
+  --text: #b3b3b3;
 }
 
 .deep-purple {
   --primary: #efb6ff;
-  --secondary: #3700B3;
-  --accent: #6200EE;
+  --secondary: #3700b3;
+  --accent: #6200ee;
   --link: #efff51;
   --text: #ffe6c9;
 }
@@ -485,9 +492,9 @@ Pull Requests will require passing at least WCAG AA requirements to be accepted
 }
 
 .cowry-wise-vibes {
-    --primary: #0066f5;
-    --secondary: #F4F8FC;
-    --accent:#022B69;
-    --link: #0066f5;
-    --text: #022B69;
+  --primary: #0066f5;
+  --secondary: #f4f8fc;
+  --accent: #022b69;
+  --link: #0066f5;
+  --text: #022b69;
 }
