@@ -25,7 +25,8 @@
       Choose a
       <wbr>new theme
     </h1>
-    <div class="wrapper">
+    <<Theme theme-name="your-theme-name" display-name="Your Theme Name" contributor="githubUsername"/>
+>
       <Theme theme-name="grinch" display-name="Grinch" contributor="noviicee"/>
       <Theme theme-name="default-light" display-name="Default Light" contributor="12vanblart"/>
       <Theme theme-name="default-dark" display-name="Default Dark" contributor="12vanblart"/>
