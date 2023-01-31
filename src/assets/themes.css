@@ -12,12 +12,12 @@ the ThemePicker.vue file so it becomes available as an option!
 
 Pull Requests will require passing at least WCAG AA requirements to be accepted
 ***/
-.grinch {
-  --primary: rgb(1, 22, 7);
-  --secondary: #84fc4c;
+.your-theme-name {
+  --primary: #fff;
+  --secondary: #fff;
   --accent: #fff;
-  --link: #6d2397;
-  --text: #000000;
+  --link: #fff;
+  --text: #fff;
 }
 
 .sea-blue {
